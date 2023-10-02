@@ -162,4 +162,4 @@ https://YY.YYYY.YYY.YY:44301/sap/opu/odata4/sap/z_onlineshop_###/srvd_a2x/sap/z_
 
 You have created a Web API next to the one that is suitable for a UI and you can now use this API in a SAP Build Process.
 
-You can continue with the next exercise - **[Build Exercise 1: Create Actions in SAP Build to access the Onlineshop API](../../../buildcode/exercises/ex1/README.md)**
+You can continue with the next exercise - **[Build Exercise 1: SAP Build Code](../../../buildcode/exercises/ex1/README.md)**
