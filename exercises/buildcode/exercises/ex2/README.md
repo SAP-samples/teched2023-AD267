@@ -52,14 +52,24 @@ Now you can start the development of your application. First you will model your
 ![](images/External_Data_Model_001.png)
 ![](images/External_Data_Model_002.png)
 
-7. In a next step you will describe the interconnection between PurchaseRequisition and External data model by defining a relationship, so each PurchaseRequisition on BTP has a S/4HANA Purchase Requisition associated to it. Click on the header of the table. Choose Add relationship Icon in the menu appearing on the right. A pop-up will appear. Select S4H_Pur_Req.PurchaseReqn and configure the relationship in the pop-up.
+7. In a next step you will describe the interconnection between PurchaseRequisition and External data model by defining a relationship, so each PurchaseRequisition on BTP has a S/4HANA Purchase Requisition associated to it. Click on the header of the table. Choose Add relationship Icon in the menu appearing on the right. 
    
 ![](images/Association_000.png)
-![](images/Association_001.png)
+
+8. A pop-up will appear. Select S4H_Pur_Req.PurchaseReqn and configure the relationship in the pop-up.In the pop-up screen enter all the required details:
+
+- Select Type: Association
+- Select Direction: Unidirectional
+- Key property: No
+- Select Multiplicity: To-One
+- Target Entity: S4H_Pur_Req.PurchaseReqn
+- 
 ![](images/Association_002.png)
 
-![](images/Association_003.png)  
+![](images/Association_001.png)
 
+9. Choose Create Button to save
+![](images/Association_003.png)  
 Continue to - **[Build Exercise 3: SAP Consume an external event](../../../buildcode/exercises/ex3/README.md)**
 
 
