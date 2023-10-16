@@ -26,4 +26,4 @@ Now you will go to the **Service Center** and add an event to the project.
 10. Open Code Editor to view the code
 ![](images/Event_008.png)
 
-
+Continue to - **[Build Exercise 5: Create UI application](../../../buildcode/exercises/ex5/README.md)**
