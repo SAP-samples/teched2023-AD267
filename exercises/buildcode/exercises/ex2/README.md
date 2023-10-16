@@ -69,7 +69,8 @@ Now you can start the development of your application. First you will model your
 ![](images/Association_001.png)
 
 9. Choose Create Button to save
-![](images/Association_003.png)  
+![](images/Association_003.png)
+
 Continue to - **[Build Exercise 3: SAP Create Service](../../../buildcode/exercises/ex3/README.md)**
 
 
