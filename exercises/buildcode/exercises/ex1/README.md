@@ -9,7 +9,7 @@ In this exercise we will consume the event created in OnlineShop app in S/4HANA 
 
 To create such a scenario we need to do th following:
 - create a project in SAP Build Lobby
-- create an entity for purchase requisition
+- create data model for purchase requisition
 - add external API and event to the project and consume it
 - create service
 - create UI
