@@ -22,15 +22,16 @@ Hint: Please use Google Chrome or Microsoft Edge to follow the exercises
 1. Open the SAP Build Lobby and login with the provided user-id and password.
 
 2. In the SAP Build Lobby choose the button Create to start
-
+![](images/Build_001.png)
 
 3. A new window opens asking you what you would like to do. Select Build an Application.
-
+![](images/Build_002.png)
 
 4. You are asked which type of application you would like to build. Select the option for Pro Developers.
-
+![](images/Build_003.png)
 
 5. Add a Project Name and a Short Description. Please name the project 'PurchaseRequisition<Your_User_ID>' and choose the same user-id you used for login.
+![](images/Build_004.png)
 6. SAP Business Application Studio opens with the project you just defined. It will take some time until your project is created.
    
 
