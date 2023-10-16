@@ -33,4 +33,6 @@ Hint: Please use Google Chrome or Microsoft Edge to follow the exercises
 5. Add a Project Name and a Short Description. Please name the project 'PurchaseRequisition<Your_User_ID>' and choose the same user-id you used for login.
 6. SAP Business Application Studio opens with the project you just defined. It will take some time until your project is created.
    
-# Start Development of Application and Create Data Model
+
+Continue to - **[Build Exercise 2: SAP Create Data Model](../../../buildcode/exercises/ex2/README.md)**
+
