@@ -14,6 +14,35 @@ After defining the foundation of your application in the previous chapter, we wi
 ![](images/UI_004.png)!
 
 5. Select main entity PurchaseRequisition in as main entity in Data Objects, to show PurchaseRequisition entity in UI. Choose Finish.
-![](images/UI_005.png)!
+![](images/UI_005.png)
+
+6. Find the tile User Interfaces and choose the entry *Manage Purchase Requisition*.
+
+   
+7. Find the List Page entry and choose the edit icon.
+![](images/UI_007.png)
+   
+9. Add the following fields to thh list page
+![](images/UI_008.png)
+11. Find the Object Page entry and choose the edit icon.
+![](images/UI_009.png)
+8. In the entry Section choose the + icon to add new section to the UI. In the dropdown, select Add Form Section.
+   
+9. In the popup enter Label as Item Details and choose value source as  from the dropdown
+    
+10. Click on Add button
+
+11. In the entry Section open "Items Details". Choose the + icon to add new fields to the UI. In the dropdown, select Add Basic Columns.
+
+
+12. In the dropdown choose the following fields inside risks
+
+- Material
+- ItemText
+- Ordered Quantity
+- Base UoM
+- Supplier
+
+13. Click on Add button
 
 Continue to - **[Build Exercise 6: Test](../../../buildcode/exercises/ex6/README.md)**
