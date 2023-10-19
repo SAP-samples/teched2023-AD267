@@ -25,5 +25,8 @@ Now you will go to the **Service Center** and add an event to the project.
 
 10. Open Code Editor to view the code
 ![](images/Event_008.png)
-
+replace the **await** statement code with:
+```js
+await INSERT .into `ManagePurchaseRequisitionService.PurchaseRequisition` .entries({purchaserequisition:message.data.PurchaseRequisition});
+```
 Continue to - **[Build Exercise 5: Create UI application](../../../buildcode/exercises/ex5/README.md)**
