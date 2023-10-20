@@ -121,6 +121,7 @@ annotate view ZC_ONLINESHOP_XXX with
     position: 10,
     label: 'Product'
   } ]
+  @Consumption.valueHelpDefinition: [{ entity : {name: 'zolshop_mat_vt', element: 'material_id' }}]
   product;
 
   @UI.lineItem: [ {
