@@ -8,7 +8,7 @@ This repository contains the material for the SAP TechEd 2023 session called AD2
 
 ## Overview
 
-We will create a new service using the ABAP RESTful Application Programming Model (RAP) in an on premise SAP S/4HANA system and then create an application using the Cloud Programming Model (CAP) on the SAP Business Technology Platform (BTP) 
+We will create a new service using the ABAP RESTful Application Programming Model (RAP) in an on-premise SAP S/4HANA system and then create an application using the Cloud Programming Model (CAP) on the SAP Business Technology Platform (BTP) 
 
 ## Requirements
 
@@ -16,9 +16,9 @@ To carry out the exercises of this repository, you need to
 - install the ABAP Development Tools (ADT) for the ABAP development parts
 - have a browser ready, preferably Google Chrome, to access the SAP Build
 
-The users for the development environment during the course are email addresses which are provided to you by the hosts.
+The users for the development environment during the course are the User IDs that have been provided to you by the hosts.
 
-Go to [Getting Started - Preparation](exercises/ex0/README.md) to find out the installation details, URLs, then start with the first exercise.
+Go to [Getting Started - Preparation](exercises/ex0/README.md) to find the installation details, URLs, and then start with the first exercise.
 
 ## Exercises
 
