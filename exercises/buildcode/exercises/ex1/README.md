@@ -18,7 +18,7 @@ To create such a scenario we need to do the following:
 
 # Create a new Project in the SAP Build Lobby
 Hint: Please use Google Chrome or Microsoft Edge to follow the exercises
-
+[SAP Build Apps Lobby](https://lcapteched.eu10.build.cloud.sap/lobby)
 1. Open the SAP Build Lobby and login with the provided user-id and password.
 
 2. In the SAP Build Lobby choose the button Create to start
