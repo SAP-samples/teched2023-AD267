@@ -416,10 +416,10 @@ with the following code:
                                    plant                       = '1010'  "Plant 01 (DE)
                                    accountassignmentcategory   = 'U'  "unknown
 *                                  PurchaseRequisitionItemText =      "retrieved automatically from maintained MaterialInfo
-                                   requestedquantity           = '1'
+                                   requestedquantity           =  OnlineOrder-Quantity
                                    purchaserequisitionprice    = '100'
                                    purreqnitemcurrency         = 'EUR'
-                                   Material                    = 'D001'
+                                   Material                    =  OnlineOrder-Product
                                    materialgroup               = 'A001'
                                    purchasinggroup             = '001'
                                    purchasingorganization      = '1010'
