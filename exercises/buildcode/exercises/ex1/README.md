@@ -3,8 +3,8 @@
 From this exercise on, we will switch to SAP's Business Technology Platform (BTP).
 
 In this exercise we will consume the event created in OnlineShop app in S/4HANA from the previous chapter. Broadly there will be three main steps:
-- Consume an S/4HANA On-Premise event for Purchase Requisition Create and persist it in HANA cloud
-- Add an external API to read Purchase Requisition data in BTP
+- Consume an S/4HANA On-Premise event for Purchase Requisition Create and persist the data in HANA cloud
+- Add an external API(S/4HANA OP) to read Purchase Requisition data in BTP
 - Update trigger Purchase order creation from CAP with reference to Purchase Requisition back in S/4HANA system
 
 To create such a scenario we need to do the following:
@@ -35,5 +35,5 @@ Hint: Please use Google Chrome or Microsoft Edge to follow the exercises
 6. SAP Business Application Studio opens with the project you just defined. It will take some time until your project is created.
    
 
-Continue to - **[Build Exercise 2: SAP Create Data Model](../../../buildcode/exercises/ex2/README.md)**
+Continue to - **[Build Exercise 2: Create Data Model](../../../buildcode/exercises/ex2/README.md)**
 
