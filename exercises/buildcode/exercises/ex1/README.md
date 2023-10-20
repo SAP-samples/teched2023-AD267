@@ -3,13 +3,13 @@
 From this exercise on, we will switch to SAP's Business Technology Platform (BTP).
 
 In this exercise we will consume the event created in OnlineShop app in S/4HANA from the previous chapter. Broadly there will be three main steps:
-- Consume an S/4HANA On-Premise event
+- Consume an S/4HANA On-Premise event for Purchase Requisition Create and persist it in HANA cloud
 - Add an external API to read Purchase Requisition data in BTP
-- Update purchase requisition data to trigger Purchase order creation back in S/4HANA system
+- Update trigger Purchase order creation from CAP with reference to Purchase Requisition back in S/4HANA system
 
 To create such a scenario we need to do the following:
 - create a project in SAP Build Lobby
-- data model for purchase requisition
+- build data model for purchase requisition for local persistence
 - add external API and event to the project and consume it
 - create service
 - create UI
