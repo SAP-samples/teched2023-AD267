@@ -18,13 +18,13 @@ This repository contains the material for the hands-on session **Use ABAP Cloud 
 
 
 In order to participate in this hands-on session, you MUST have installed the latest version of Eclipse and the latest version of the ABAP Development Tools (ADT) in Eclipse.
-Please check the following two short documents how to do this if you have not already done it:  
+Please check the following two short documents on how to do this if you have not already done it:  
 - [Install the ABAP Development Tools (ADT)](https://developers.sap.com/tutorials/abap-install-adt.html)  
 - [Adapt the Web Browser settings in your ADT installation](https://github.com/SAP-samples/abap-platform-rap-workshops/blob/main/requirements_rap_workshops.md#4-adapt-the-web-browser-settings-in-your-adt-installation)  
  
-You also need a user on an SAP S/4HANA Cloud ABAP Environment system or on a SAP S/4HANA on prem or private cloud system. The on premise system must have a relase equal or higher SAP S/4HANA 2022.  
+You also need a user on an SAP S/4HANA Cloud ABAP Environment system or on an SAP S/4HANA on-prem or private cloud system. The on-premise system must have a release equal to or higher SAP S/4HANA 2022.  
 
-> **Note for participants of SAP events:** You will recieve logon information from the SAP team during the event. 
+> **Note for participants of SAP events:** You will receive log on information from the SAP team during the event. 
 > 
 > | [How to log on to a SAP S/4HANA 2022 preconfigured appliance system](exercises/ex99/README.md) |  
 
@@ -34,7 +34,7 @@ You also need a user on an SAP S/4HANA Cloud ABAP Environment system or on a SAP
 
 
 **ABAP Cloud**  
-… is the ABAP development model to build cloud-ready business apps, services and extensions  
+… is the ABAP development model to build cloud-ready business apps, services, and extensions  
 … comes with SAP BTP and SAP S/4HANA  
 … works with public or private cloud, and even on-premise  
 
@@ -42,7 +42,7 @@ This hands-on workshop will guide you to build developer extensions using *ABAP 
 
 A RAP facade is a *released* business object interface built with the ABAP RESTful Application Programming Model (RAP).
 
-You will create your own transactional Fiori elements app with the ABAP RESTful Application Programming Model (RAP) and use released RAP facades to enhance the existing functionality. 
+You will create your own transactional Fiori Elements app with the ABAP RESTful Application Programming Model (RAP) and use released RAP facades to enhance the existing functionality. 
 
 ### Business Scenario 
 
