@@ -2,7 +2,7 @@
 
 Now you can start the development of your application. First you will model your application and define the database table and the relationship between the entities.
 
-1. In this application Data Model 'PurchaseRequisition', to hold the data are needed. To create a Data Model open SAP Business Application Studio, look for the tile Data Models and choose the + icon to add a new entity.
+1. In this application, Data Model 'PurchaseRequisition' is needed to hold the data. To create a Data Model open SAP Business Application Studio' *Storyboard*, look for the tile Data Models and choose the + icon to add a new entity.
    
 ![](images/DataModel_000.png)
 
