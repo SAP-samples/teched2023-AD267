@@ -44,7 +44,7 @@ After defining the foundation of your application in the previous chapter, we wi
 11. In the popup enter Label as Item Details.
 ![](images/UI_013.png)      
 10. Click on Add button
-![](images/UI_014.png)  
+
 11. In the Sections, open "Items Details". Choose the + icon on right side of "Fields", to add new fields to Item Details. In the popover, select "Add Basic Columns".
 ![](images/UI_015.png)  
 
@@ -55,7 +55,7 @@ After defining the foundation of your application in the previous chapter, we wi
 - Ordered Quantity
 - Base UoM
 - Supplier
-  
+![](images/UI_014.png)    
 ![](images/UI_016.png)  
 
 
