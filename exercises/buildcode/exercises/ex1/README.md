@@ -5,16 +5,16 @@ From this exercise on, we will switch to SAP's Business Technology Platform (BTP
 In this exercise we will consume the event created in OnlineShop app in S/4HANA from the previous chapter. Broadly there will be three main steps:
 - Consume an S/4HANA On-Premise event for Purchase Requisition Create and persist the data in HANA cloud
 - Add an external API(S/4HANA OP) to read Purchase Requisition data in BTP
-- Update trigger Purchase order creation from CAP with reference to Purchase Requisition back in S/4HANA system
+- Trigger Purchase order creation from Purchase Requisition in CAP back in S/4HANA system
 
 To create such a scenario we need to do the following:
-- create a project in SAP Build Lobby
-- build data model for purchase requisition for local persistence
-- add external API and event to the project and consume it
-- create service
-- create UI
-- deploy the app to cloud foundry
-- test
+1. create a project in SAP Build Lobby
+2. create data model for purchase requisition for local persistence and add an external API association 
+3. Add an event to the project and consume it
+4. create service
+5. create UI
+6. deploy the app to cloud foundry
+7. test
 
 # Create a new Project in the SAP Build Lobby
 Hint: Please use Google Chrome or Microsoft Edge to follow the exercises
@@ -30,7 +30,7 @@ Hint: Please use Google Chrome or Microsoft Edge to follow the exercises
 4. You are asked which type of application you would like to build. Select the option for Pro Developers.
 ![](images/Build_003.png)
 
-5. Add a Project Name and a Short Description. Please name the project 'PurchaseRequisition<Your_User_ID>' and choose the same user-id you used for login.
+5. Add a Project Name and a Short Description. Please name the project *'PurchaseRequisition<Your_User_ID>'* and choose the same user-id you used for login.
 ![](images/Build_004.png)
 6. SAP Business Application Studio opens with the project you just defined. It will take some time until your project is created.
    
