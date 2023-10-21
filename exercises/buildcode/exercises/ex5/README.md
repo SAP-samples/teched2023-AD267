@@ -13,7 +13,7 @@ After defining the foundation of your application in the previous chapter, we wi
 4. Choose UI application template as List Report Page. Choose Next.
 ![](images/UI_004.png)
 
-5. Select main entity PurchaseRequisition in as main entity in Data Objects, to show PurchaseRequisition entity in UI. Choose Finish.
+5. Select main entity PurchaseRequisition as main entity in Data Objects, to show PurchaseRequisition entity on UI. Choose Finish.
 ![](images/UI_005.png)
 
 6. Find the tile User Interfaces and choose the entry *Manage Purchase Requisition*.
