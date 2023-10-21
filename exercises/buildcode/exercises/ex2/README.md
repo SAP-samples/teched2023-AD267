@@ -7,9 +7,10 @@ Now you can start the development of your application. First you will model your
 ![](images/DataModel_000.png)
 
 2. A new entity is created for you. Click on the tile and choose Show Details to edit the entity.
-   
+
+![](images/DataModel_000_2.png)   
 ![](images/DataModel_000_1.png)
-![](images/DataModel_000_2.png)
+
 
 3. Change the Entity Name to PurchaseRequisition. Remove the property ID and choose the + icon in the table to add the following properties:
 
@@ -52,7 +53,7 @@ Now you can start the development of your application. First you will model your
 ![](images/External_Data_Model_001.png)
 ![](images/External_Data_Model_002.png)
 
-7. In a next step you will describe the interconnection between PurchaseRequisition and External data model by defining a relationship, so each PurchaseRequisition on BTP has a S/4HANA Purchase Requisition associated to it. Click on the header of the table. Choose Add relationship Icon in the menu appearing on the right. 
+7. Next you will describe the interconnection between PurchaseRequisition and External data model by defining a relationship, so each PurchaseRequisition on BTP has a S/4HANA Purchase Requisition associated to it. Click on the header of the table. Choose Add relationship Icon in the menu appearing on the right. 
    
 ![](images/Association_000.png)
 
@@ -70,6 +71,19 @@ Now you can start the development of your application. First you will model your
 
 9. Choose Create Button to save
 ![](images/Association_003.png)
+
+10. Now, go to the explorer. You will find the explorer as shown below:
+![](images/Explorer_001.png)
+![](images/Explorer_002.png)
+11. Open file *schema.cds* and replace the "Association" line with the following code:
+![](images/Schema_001.png)
+
+```js
+purchaseReqn : Association to one S4H_Pur_Req.PurchaseReqn on purchaseReqn.PurchaseRequisition = purchaserequisition;
+```
+
+![](images/Schema_001.png)
+
 
 Continue to - **[Build Exercise 3: SAP Create Service](../../../buildcode/exercises/ex3/README.md)**
 
