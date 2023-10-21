@@ -16,8 +16,8 @@ After defining the foundation of your application in the previous chapter, we wi
 5. Select main entity PurchaseRequisition as main entity in Data Objects, to show PurchaseRequisition entity on UI. Choose Finish.
 ![](images/UI_005.png)
 
-6. Find the tile User Interfaces and choose the entry *Manage Purchase Requisition*.
-
+6. Page Map will open automatically in few seconds. If not, goto Storyboard to find the tile UI Applications and click on *Manage Purchase Requisition* to select "Open in Page Map".
+![](images/UI_006.png)
    
 7. Find the List Page entry and choose the edit icon.
 ![](images/UI_007.png)
@@ -33,7 +33,7 @@ After defining the foundation of your application in the previous chapter, we wi
 11. Find the Object Page entry and choose the edit icon.
 ![](images/UI_009.png)
 8. Expand the **Header** section and add field 'Purchase Requisition' in *Header Sections*
-  
+![](images/UI_010.png)  
 9. In **Sections** under *General Information* add the following fields
 - purchaseReqn/PurReqnDescription
 - Comments
@@ -44,18 +44,19 @@ After defining the foundation of your application in the previous chapter, we wi
 11. In the popup enter Label as Item Details.
 ![](images/UI_013.png)      
 10. Click on Add button
+![](images/UI_014.png)  
+11. In the Sections, open "Items Details". Choose the + icon on right side of "Fields", to add new fields to Item Details. In the popover, select "Add Basic Columns".
+![](images/UI_015.png)  
 
-11. In the entry Section open "Items Details". Choose the + icon to add new fields to the UI. In the dropdown, select Add Basic Columns.
-
-
-12. In the dropdown choose the following fields inside risks
+12. In the dropdown choose the following fields inside *purchaseReqn/_PurchaseRequisitionItem*
 
 - Material
 - ItemText
 - Ordered Quantity
 - Base UoM
 - Supplier
+  
+![](images/UI_016.png)  
 
-13. Click on Add button
 
 Continue to - **[Build Exercise 6: Test](../../../buildcode/exercises/ex6/README.md)**
