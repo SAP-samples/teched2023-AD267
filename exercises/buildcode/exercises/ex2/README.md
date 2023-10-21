@@ -82,7 +82,7 @@ Now you can start the development of your application. First you will model your
 purchaseReqn : Association to one S4H_Pur_Req.PurchaseReqn on purchaseReqn.PurchaseRequisition = purchaserequisition;
 ```
 
-![](images/Schema_001.png)
+![](images/Schema_002.png)
 
 
 Continue to - **[Build Exercise 3: SAP Create Service](../../../buildcode/exercises/ex3/README.md)**
