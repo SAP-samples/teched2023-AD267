@@ -19,10 +19,10 @@ After defining the foundation of your application in the previous chapter, we wi
 6. Page Map will open automatically in few seconds. If not, goto Storyboard to find the tile UI Applications and click on *Manage Purchase Requisition* to select "Open in Page Map".
 ![](images/UI_006.png)
    
-7. Find the List Page entry and choose the edit icon.
+7. In the Page Map, find the List Page entry and choose the edit icon.
 ![](images/UI_007.png)
    
-8. Add the following fields to thh list page
+8. Add the following fields to the list page
 
 - Purchase Requisition
 - purchaseReqn/PurReqnDescription
@@ -40,13 +40,15 @@ After defining the foundation of your application in the previous chapter, we wi
 
 11. In **Sections** under *General Information* add the following fields
 - purchaseReqn/PurReqnDescription
+- purchaseReqn/DocumentType
+- Status
 - Comments
 ![](images/UI_011.png)
 
-12. Next, choose the + icon to add new section to the UI. In the dropdown, select Add Form Section.
+12. Next, choose the + icon to add a new section. In the dropdown, select Add Form Section.
 ![](images/UI_012.png)
  
-13. In the popup enter Label as Item Details.
+13. In the popup enter Label as "Item Details".
 ![](images/UI_013.png)
  
 14. Click on Add button to save.
@@ -54,12 +56,13 @@ After defining the foundation of your application in the previous chapter, we wi
 15. In the Sections, open "Items Details". Choose the + icon on right side of "Fields", to add new fields to Item Details. In the popover, select "Add Basic Columns".
 ![](images/UI_015.png)  
 
-16. In the dropdown choose the following fields inside *purchaseReqn/_PurchaseRequisitionItem*
+16. Select the following fields from *purchaseReqn/_PurchaseRequisitionItem*
 
 - Material
 - ItemText
 - Ordered Quantity
 - Base UoM
+- Plant
 - Supplier
 ![](images/UI_014.png)    
 ![](images/UI_016.png)  
