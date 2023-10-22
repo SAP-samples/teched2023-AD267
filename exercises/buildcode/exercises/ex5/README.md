@@ -1,7 +1,7 @@
 # Exercise 5: Create UI Application
 After defining the foundation of your application in the previous chapter, we will add an SAP Fiori elements based User Interface to the application.
 
-1. Go to the storyboard page and find the UI Application tile and choose the + icon to add a new user interface.
+1. Go to the storyboard page and find the UI Applications tile and choose the + icon to add a new user interface.
 ![](images/UI_001.png)
 
 2. A screen will show up where you can add the Display Name: ManagePurchaseRequisition-<Your-User-ID> and enter a description. Choose Next.
@@ -22,7 +22,7 @@ After defining the foundation of your application in the previous chapter, we wi
 7. Find the List Page entry and choose the edit icon.
 ![](images/UI_007.png)
    
-9. Add the following fields to thh list page
+8. Add the following fields to thh list page
 
 - Purchase Requisition
 - purchaseReqn/PurReqnDescription
@@ -30,25 +30,31 @@ After defining the foundation of your application in the previous chapter, we wi
 - Comments
 - purchaseReqn/_PurchaseRequisitionItem/PurchasingDocument
 ![](images/UI_008.png)
-11. Find the Object Page entry and choose the edit icon.
+> Note: Though Purchasing Document is an item level field, it is used on list page to keep it simple for the use case. It has 1:n relationship with Purchase Requisition number.
+
+9. Find the Object Page entry and choose the edit icon.
 ![](images/UI_009.png)
-8. Expand the **Header** section and add field 'Purchase Requisition' in *Header Sections*
-![](images/UI_010.png)  
-9. In **Sections** under *General Information* add the following fields
+
+10. Expand the **Header** section and add field 'Purchase Requisition' in *Header Sections*
+![](images/UI_010.png)
+
+11. In **Sections** under *General Information* add the following fields
 - purchaseReqn/PurReqnDescription
 - Comments
 ![](images/UI_011.png)
 
-10. Next, choose the + icon to add new section to the UI. In the dropdown, select Add Form Section.
-![](images/UI_012.png)   
-11. In the popup enter Label as Item Details.
-![](images/UI_013.png)      
-10. Click on Add button
+12. Next, choose the + icon to add new section to the UI. In the dropdown, select Add Form Section.
+![](images/UI_012.png)
+ 
+13. In the popup enter Label as Item Details.
+![](images/UI_013.png)
+ 
+14. Click on Add button to save.
 
-11. In the Sections, open "Items Details". Choose the + icon on right side of "Fields", to add new fields to Item Details. In the popover, select "Add Basic Columns".
+15. In the Sections, open "Items Details". Choose the + icon on right side of "Fields", to add new fields to Item Details. In the popover, select "Add Basic Columns".
 ![](images/UI_015.png)  
 
-12. In the dropdown choose the following fields inside *purchaseReqn/_PurchaseRequisitionItem*
+16. In the dropdown choose the following fields inside *purchaseReqn/_PurchaseRequisitionItem*
 
 - Material
 - ItemText
