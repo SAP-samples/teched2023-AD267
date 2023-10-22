@@ -18,15 +18,30 @@ Congratulations! You now have finished a first version of your application. In t
 4. Scroll to the bottom of the screen, ensure "Events" is set to local.
 ![](images/Run_002.png)
 
-7. Run the application from the green icon on right side of Run COnfiguration name.
+5. Run the application from the green icon on right side of Run COnfiguration name.
 ![](images/Run_004.png)
 
-9. A new browser tab will open showing your application.
+6. A new browser tab will open showing your application.
 ![](images/Run_App_001.png)
 
-10. Choose a tile to try out your app. Click on `Manage Purchase Requisition` app
-11. Click `Go` button to display the sample data
+7. Choose a tile to try out your app. Click on `Manage Purchase Requisition` app
+8. Click `Go` button to display the sample data
 ![](images/Run_App_002.png)
 
-12. Make sure you exit the preview mode after your test is finished by clicking **Stop Icon** in SAP BAS.
+9. Make sure you exit the preview mode after your test is finished by clicking **Stop Icon** in SAP BAS.
 ![](images/Run_App_003.png)
+
+# Run with Event Mesh
+1. Go back to run configurations and set the "Events" to *Event Mesh*.
+![](images/Run_EventMesh.png)
+
+2. It will ask for CF login. Provide your user name and pass word to login.
+![](images/Run_CF_001.png)
+
+3. Select the Devspace as "dev".
+![](images/Run_CF_002.png)
+
+4. Click on the link below "Events" for one time local setup for event processing. This step is requied only once for every project.
+
+5. Create data using S/4 preview app and repeat steps 5 to 9 from the above section to view the data created by live events.
+< Please delete the sample data before using the Event Mesh option.
