@@ -35,13 +35,13 @@ Congratulations! You now have finished a first version of your application. In t
 1. Go back to run configurations and set the "Events" to *Event Mesh*.
 ![](images/Run_EventMesh.png)
 
-2. It will ask for CF login. Provide your user name and pass word to login.
-![](images/Run_CF_001.png)
+2. It will ask for CF login. Provide your username and password to login.
+![](images/Run_CF.png)
 
 3. Select the Devspace as "dev".
-![](images/Run_CF_002.png)
+![](images/Run_CF_001.png)
 
 4. Click on the link below "Events" for one time local setup for event processing. This step is requied only once for every project.
 
 5. Create data using S/4 preview app and repeat steps 5 to 9 from the above section to view the data created by live events.
-< Please delete the sample data before using the Event Mesh option.
+> Note: Please delete the sample data before using the Event Mesh option.
