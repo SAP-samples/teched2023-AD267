@@ -50,10 +50,10 @@ You will create your own transactional Fiori Elements app with the ABAP RESTful 
  
  - An existing customer/partner wants to create a new business application that will allow employees of a company to order certain articles such as laptops for quick delivery using this shopping app. This can be realized with the ABAP RESTful Application Programming Model (RAP). 
  
- - You’ll build the application starting from a database table using an ADT wizard that generates a starter project wich contains all the needed development RAP artefacts that have to be implemented. The generated business service will be transactional, draft-enabled, and enriched with UI semantics for the generation of the Fiori elements app.
+ - You’ll build the application starting from a database table using an ADT wizard that generates a starter project which contains all the needed development RAP artefacts that have to be implemented. The generated business service will be transactional, draft-enabled, and enriched with UI semantics for the generation of the Fiori elements app.
 
 <!--
- - Now, the customer/partner wishes to enhance the existing online shop application. After an order is placed, it should be possible to initiate a purchase requisition for this order in the SAP S/4HANA system. Using the developer extensibility custom code can be added to the existing business logic of the online shop BO to fulfill this requirementand by calling the released RAP facade **I_PurchaseRequisitionTP** locally.
+ - Now, the customer/partner wishes to enhance the existing online shop application. After an order is placed, it should be possible to initiate a purchase requisition for this order in the SAP S/4HANA system. Using the developer extensibility custom code can be added to the existing business logic of the online shop BO to fulfill this requirement and by calling the released RAP facade **I_PurchaseRequisitionTP** locally.
  -->
  
  <!--
@@ -67,7 +67,7 @@ Your application will finally look like this:
 ### Architecture Overview
 
 
-The figure below illustrates the high-level architecture components of the cloud extensibility model used in SAP S/4HANA public Cloud, SAP S/4HANA private cloud and SAP S/4HANA on premise systems.
+The figure below illustrates the high-level architecture components of the cloud extensibility model used in SAP S/4HANA public Cloud, SAP S/4HANA private cloud and SAP S/4HANA on-premise systems.
  
  ![architecture](images/100_SAP_S4_HANA_Extensibility_Patterns.png)
  
