@@ -68,12 +68,12 @@ After defining the foundation of your application in the previous chapter, we wi
 
 17. Select the following fields from *purchaseReqn/_PurchaseRequisitionItem*
 
-- Material
+- purchaseReqn/_PurchaseRequisitionItem/Material
 - ItemText
-- Ordered Quantity
-- Base UoM
-- Plant
-- Supplier
+- purchaseReqn/_PurchaseRequisitionItem/OrderedQuantity
+- purchaseReqn._PurchaseRequisitionItem/BaseUnit
+- purchaseReqn._PurchaseRequisitionItem/Plant
+- purchaseReqn._PurchaseRequisitionItem/Supplier
 ![](images/UI_014.png)    
 ![](images/UI_016.png)  
 
