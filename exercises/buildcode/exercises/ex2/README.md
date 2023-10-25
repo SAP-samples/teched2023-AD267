@@ -65,15 +65,15 @@ You will now see that the external API is added to the External Resources sectio
 
 8. Next you will describe the interconnection between PurchaseRequisition and the External data model by defining a relationship, so each PurchaseRequisition on BTP has a S/4HANA Purchase Requisition associated with it.
    
-9. You should be on the Storyboard. If not, go to the Storyboard tab. Click on 'PurchaseRequisiton' data model under the DataModels tab and click on 'Open in Graphical Modeler'.
+You should be on the Storyboard. If not, go to the Storyboard tab. Click on 'PurchaseRequisiton' data model under the DataModels tab and click on 'Open in Graphical Modeler'.
 
 ![](images/OpenCDSModeler.png)  
 
-11. You should now be on a tab called "schema.cds". Click on the header of the table 'PurchaseRequisiton'. Choose Add Relationship Icon in the menu appearing on the right. 
+9. You should now be on a tab called "schema.cds". Click on the header of the table 'PurchaseRequisiton'. Choose Add Relationship Icon in the menu appearing on the right. You will get an arrow. Drop it anywhere on the canvas.
    
 ![](images/Association_000.png)
 
-9. A pop-up will appear. Select S4H_Pur_Req.PurchaseReqn and configure the relationship in the pop-up.In the pop-up screen enter all the required details:
+10. Once you drop the arrow anywhere on the canvas, a pop-up will appear. In the pop-up screen enter all the required details:
 
 - Select Type: Association
 - Select Direction: Unidirectional
