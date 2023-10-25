@@ -55,7 +55,7 @@ In this hands-on workshop, we will implement an online shop for employees which 
   - [Exercise 1: Create an ABAP Package](exercises/ex1/README.md)
   - [Exercise 2: Create the OnlineShop Application](exercises/ex2/README.md)
   - [Exercise 3: Adapt the data model](exercises/ex3/README.md)
-  - [Exercise 4: Create a Web API for the Onlineshop](exercises/ex4/README.md)
+  - [Exercise 4: Create a Web API for the Onlineshop](../ex4/README.md)
       
 - [Part 2 - SAP Build Code](exercises/buildcode/exercises/ex1/README.md)
   - [Build Exercise 2: Create Data Model](exercises/buildcode/exercises/ex2/README.md)
