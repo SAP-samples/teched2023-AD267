@@ -35,7 +35,7 @@ Go to [Getting Started - Preparation](exercises/ex0/README.md) to find the insta
 
 - [Getting Started - Preparation](exercises/ex0/README.md)
 - [Part 1 - ABAP ](exercises/rap/README.md)
-- [Part 2 - SAP Build Code](exercises/build/exercises/ex1/README.md)
+- [Part 2 - SAP Build Code](exercises/buildcode/exercises/ex1/README.md)
   
 ## How to obtain support
 
