@@ -23,10 +23,17 @@ Now you will go to the **Service Center** and add an event to the project.
 
 8. Add logic to insert data in PurchaseRequisition entity. Put description as "Create purchase requisition"
 ![](images/Event_005.png)
+
+9. Click on Business Logic and click on "+ Template" and choose "Function Call"
 ![](images/Event_006.png)
+
+10. Click on Configure Function and choose CQL_Insert().
+![](images/Cqlinsert.png)
+
+11. Double-cick on CQL_Insert to open the right-hand panel.
 ![](images/Event_007.png)
 
-10. Open Code Editor to view the code
+12. Open Code Editor to view the code
 ![](images/Event_008.png)
 replace the **await** statement code with:
 ```js
