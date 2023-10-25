@@ -16,6 +16,8 @@ Now you will go to the **Service Center** and add an event to the project.
 
 6. Next we will consume this event.
 ![](images/Event_004.png)
+
+7. This will open the 'Application Logic Editor'.
 ![](images/Event_010.png)
 
 8. Add logic to insert data in PurchaseRequisition entity.
