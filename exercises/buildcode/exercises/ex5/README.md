@@ -45,7 +45,7 @@ After defining the foundation of your application in the previous chapter, we wi
 11.  Add the field 'Purchase Requisition' in *Header Sections*
 ![](images/UI_010.png)
 
-12. In **Sections** under *General Information* add the following fields
+12. In **Sections** -> *General Information* -> Form -> Fields, add the following fields
 - PurReqnDescription
 - PurchaseRequisitionType
 
