@@ -66,14 +66,13 @@ After defining the foundation of your application in the previous chapter, we wi
 16. In the Sections, open "Items Details". Choose the + icon on the right side of "Form" -> "Fields", to add new fields to Item Details. In the popover, select "Add Basic Columns".
 ![](images/UI_015.png)  
 
-17. Select the following fields from *purchaseReqn/_PurchaseRequisitionItem*
-
+17. Select the following fields:
 - purchaseReqn/_PurchaseRequisitionItem/Material
 - ItemText
 - purchaseReqn/_PurchaseRequisitionItem/OrderedQuantity
-- purchaseReqn._PurchaseRequisitionItem/BaseUnit
-- purchaseReqn._PurchaseRequisitionItem/Plant
-- purchaseReqn._PurchaseRequisitionItem/Supplier
+- purchaseReqn/_PurchaseRequisitionItem/BaseUnit
+- purchaseReqn/_PurchaseRequisitionItem/Plant
+- purchaseReqn/_PurchaseRequisitionItem/Supplier
 ![](images/UI_014.png)    
 ![](images/UI_016.png)  
 
