@@ -78,4 +78,4 @@ After defining the foundation of your application in the previous chapter, we wi
 ![](images/UI_016.png)  
 
 
-Continue to - **[Build Exercise 6: Test](../../../buildcode/exercises/ex6/README.md)**
+Continue to - **[Build Exercise 6: Preview and test the app](../../../buildcode/exercises/ex6/README.md)**
