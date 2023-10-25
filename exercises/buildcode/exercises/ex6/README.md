@@ -47,7 +47,10 @@ Congratulations! You now have finished a working version of your application. In
 3. Select the Devspace as "dev".
 ![](images/Run_CF_001.png)
 
-4. Click on the link below "Events" for one time local setup for event processing. This step is requied only once for every project.
+4. Click on the link below "Create a new Event Mesh Instance" to create a one-time local setup for event processing. This step is required only once for every project.
+
+![](images/EventMesh.png)
 
 5. Create data using S/4 preview app and repeat steps 5 to 9 from the above section to view the data created by live events.
+   
 > Note: Please delete the sample data before using the Event Mesh option.
