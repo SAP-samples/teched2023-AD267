@@ -52,7 +52,17 @@ In this hands-on workshop, we will implement an online shop for employees which 
 
 - [Getting Started - Preparation](exercises/ex0/README.md)
 - [Part 1 - ABAP ](exercises/rap/README.md)
+  - [Exercise 1: Create an ABAP Package](exercises/ex1/README.md)
+  - [Exercise 2: Create the OnlineShop Application](exercises/ex2/README.md)
+  - [Exercise 3: Adapt the data model](exercises/ex3/README.md)
+  - [Exercise 4: Create a Web API for the Onlineshop](exercises/ex4/README.md)
+      
 - [Part 2 - SAP Build Code](exercises/buildcode/exercises/ex1/README.md)
+  - [Build Exercise 2: Create Data Model](../../../buildcode/exercises/ex2/README.md)
+  - [Build Exercise 3: SAP Create Service](../../../buildcode/exercises/ex3/README.md)
+  - [Build Exercise 4: Add and consume an event from S/4HANA On-Premise](../../../buildcode/exercises/ex4/README.md)
+  - [Build Exercise 5: Create UI application](../../../buildcode/exercises/ex5/README.md)
+  - [Build Exercise 6: Preview and test the app](../../../buildcode/exercises/ex6/README.md)
   
 ## How to obtain support
 
