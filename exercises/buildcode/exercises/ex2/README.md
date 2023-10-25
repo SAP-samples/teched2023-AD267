@@ -8,7 +8,7 @@ Now you can start the development of your application. First you will model your
  
  ![](images/Storyboard.png)
   
-2.  In this application, Data Model 'PurchaseRequisition' is needed to hold the data. To create a Data Model open SAP Business Application Studio' *Storyboard*, look for the tile Data Models and choose the + icon to add a new entity.
+2. We will create a new CAP Data Model called 'PurchaseRequisition' to hold the data coming from the RAP interface. To create a new Data Model, look for the tile Data Models and choose the + icon to add a new entity. Name the entity 'PurchaseRequisiton'.
    
 ![](images/DataModel_000.png)
 
