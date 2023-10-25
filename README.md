@@ -1,4 +1,4 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AD267)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AD267)
+<img width="1075" alt="img-build-code-benefits" src="https://github.com/SAP-samples/teched2023-AD267/assets/133628189/7f9dd973-fc78-47c2-90c2-6176bcfb61aa">[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AD267)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AD267)
 
 # AD267 - Extending with ABAP Cloud and SAP Cloud Application Programming Model
 
@@ -8,13 +8,19 @@ This repository contains the material for the SAP TechEd 2023 session called AD2
 
 ## Overview
 
-SAP Build Code
+*SAP Build Code*
+
 Last year, SAP launched SAP Build to empower business experts to construct applications, implement automations and compose business sites. This year, the Build family is being expanded to offer a powerful shortcut for cloud application development with the introduction of SAP Build Code.
 
 ![](images/img-build-code-architecture.png)
 
+SAP Build Code unifies essential application development tools such as SAP Business Application Studio, SAP Cloud Application Programming Model (CAP), SAPUI5, SAP Mobile Services, and SAP Document Management Services. It is powered by the generative AI copilot, Joule, and enables interoperability with ABAP Cloud. Additionally, it facilitates seamless collaboration with SAP Build's low-code solutions and provides robust governance and lifecycle management features.
 
-We will create a new service using the ABAP RESTful Application Programming Model (RAP) in an on-premise SAP S/4HANA system and then create an application using the Cloud Programming Model (CAP) on the SAP Business Technology Platform (BTP) 
+![](images/img-build-code-benefits.png)
+
+*Exercise Overview*
+
+In this hands-on session, we will create a new service using the ABAP RESTful Application Programming Model (RAP) in an on-premise SAP S/4HANA system. This RAP service will generate an event which will then be consumed in an application created by you using the Cloud Programming Model (CAP) on the SAP Business Technology Platform (BTP).
 
 ## Requirements
 
