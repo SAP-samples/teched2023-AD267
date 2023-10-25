@@ -34,7 +34,6 @@ After defining the foundation of your application in the previous chapter, we wi
 - _PurchaseRequisitionItem/PurchasingDocument
 ![](images/ListPageCols.png)
 
-![](images/UI_008.png)
 > Note: Though Purchasing Document is an item level field, it is used on list page to keep it simple for the use case. It has 1:n relationship with Purchase Requisition number.
 
 9. Find the Object Page entry and choose the edit icon.
