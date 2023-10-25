@@ -31,10 +31,10 @@ Hint: Please use Google Chrome or Microsoft Edge to follow the exercises
 5. On the next step, choose Full Stack Application 
 ![](images/CreateFullStack.png)
 
-6. Add a Project Name, Namespace, Service Name and a Short Description. Please name the project *'PurchaseRequisition_###'* and choose the 3-digit number as given in your user-id that you used for login.
+6. Add a Project Name, Namespace, Service Name and a Short Description. Please name the project *'ManagePurchaseRequisition###'* and choose the 3-digit number as given in your user-id that you used for login.
 ![](images/ProjectName.png)
 
-7. It will take some time until your project is created. Once the project is created, you will see it listed in the Lobby. Click on the name of the project to oprn SAP Business Application Studio.
+7. It will take some time until your project is created. Once the project is created, you will see it listed in the Lobby. Click on the name of the project to open SAP Business Application Studio.
 ![](images/projectCreated.png)
    
 
