@@ -1,4 +1,3 @@
-<img width="1075" alt="img-build-code-benefits" src="https://github.com/SAP-samples/teched2023-AD267/assets/133628189/7f9dd973-fc78-47c2-90c2-6176bcfb61aa">[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AD267)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AD267)
 
 # AD267 - Extending with ABAP Cloud and SAP Cloud Application Programming Model
 
