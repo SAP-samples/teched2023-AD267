@@ -7,11 +7,11 @@ This repository contains the material for the SAP TechEd 2023 session called AD2
 
 ## Overview
 
-### The Clean Core strategy
-SAP advocates keeping your Core Clean by using the various Extensibility Options given below.
-In this hands-on workshop, we shall make use of Developer Extensibility and Side-by-Side extensibility.
+### The Clean Core Strategy
+SAP advocates keeping your Core Clean by using the various Extensibility Options given below in the diagram.
+We shall make use of Developer Extensibility and Side-by-Side extensibility and show how easy it is to communicate between both worlds in this hands-on exercise.
 
-
+![](images/CleanCore.png)
 
 ### SAP Build Code
 
