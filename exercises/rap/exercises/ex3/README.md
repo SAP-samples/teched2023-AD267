@@ -512,6 +512,8 @@ with the following code:
 7. Replace the placeholder `###` with your group ID.
 
 8. Save ![save icon](../../images/adt_save.png) and activate ![activate icon](../../images/adt_activate.png) the changes.
+   
+9. This will generate standard event "Purchase Requisition Created". You will consume this event later in SAP Build Code for further processing.**[Build Exercise 4: SAP Add and consume an event from S/4HANA On-Premise](../../../buildcode/exercises/ex4/README.md)**
 
 ## Exercise 3.5: Add unmanaged save
 
