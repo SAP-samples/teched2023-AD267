@@ -17,11 +17,11 @@ Now you will go to the **Service Center** and add an event to the project.
 6. Next we will consume this event.
 ![](images/Event_004.png)
 
-7. This will open the 'Application Logic Editor'. Choose the "External Service Event" as 'Created.v1 and the name as "CreatePR". This will allow you to add custom logic to get the data from the API based on the event.
+7. This will open the 'Application Logic Editor'. Choose the "External Service Event" as 'Created.v1 and the name as "CreatePR" and click on Add. This will allow you to add custom logic to get the data from the API based on the event. 
 
 ![](images/Event_010.png)
 
-8. Add logic to insert data in PurchaseRequisition entity.
+8. Add logic to insert data in PurchaseRequisition entity. Put description as "Create purchase requisition"
 ![](images/Event_005.png)
 ![](images/Event_006.png)
 ![](images/Event_007.png)
