@@ -39,6 +39,9 @@ Congratulations! You now have finished a working version of your application. In
 
 # Run with Event Mesh
 > Note: Please delete the sample data before using the Event Mesh option.
+![](images/RunSampleData_001.png)
+![](images/RunSampleData_002.png)
+![](images/RunSampleData_003.png)
 1. Go back to run configurations and set the "Events" to *Event Mesh*. This will enable the project to test events in SAP Build Code. You will be able to recieve events from the connected S/4HANA OP system. 
 ![](images/Run_EventMesh.png)
 
