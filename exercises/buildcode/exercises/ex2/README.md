@@ -54,12 +54,16 @@ Now you can start the development of your application. First you will model your
 
 ![](images/DataModel_011.png)
 
-7. In a next step you will add an external API to the project. Go back to the Storyboard tab and click on the "+" under External Resources. This will take you to the **Service Center**, expand node **lcapteched** select *S4H_Pur_Req*. Click on the blue button on right hand side view **Add External Data Model**   
+7. In a next step you will add an external API to the project. Go back to the Storyboard tab and click on the "+" under External Resources. This will take you to the **Service Center**. 
 ![](images/ExternalRes.png)
+
+Now, expand node **SAP System** -> **lcapteched** -> select *S4H_Pur_Req*. Click on the blue button on the right-hand side view **Add External Data Model**   
 ![](images/External_Data_Model_001.png)
+
+You will now see that the external API is added to the External Resources section of the Storyboard.
 ![](images/External_Data_Model_002.png)
 
-8. Next you will describe the interconnection between PurchaseRequisition and External data model by defining a relationship, so each PurchaseRequisition on BTP has a S/4HANA Purchase Requisition associated to it. Click on the header of the table. Choose Add relationship Icon in the menu appearing on the right. 
+8. Next you will describe the interconnection between PurchaseRequisition and the External data model by defining a relationship, so each PurchaseRequisition on BTP has a S/4HANA Purchase Requisition associated with it. Click on the header of the table. Choose Add Relationship Icon in the menu appearing on the right. 
    
 ![](images/Association_000.png)
 
