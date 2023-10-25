@@ -29,10 +29,10 @@ Congratulations! You now have finished a first version of your application. In t
 ![](images/Run_App_002.png)
 
 9. Navigate to details of the Purchase Requisition.
-![](images/Run_App_002_1.png)
+![](images/Run_002_1.png)
 
 10. Click on *Edit* from the top right corner to review the Purchase Requisition and update the status to "Approved" or "Rejected". Save.
-![](images/Run_App_002_2.png)
+![](images/Run_002_2.png)
     
 11. Make sure you exit the preview mode after your test is finished by clicking **Stop Icon** in SAP BAS.
 ![](images/Run_App_003.png)
