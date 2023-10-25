@@ -68,7 +68,7 @@ After defining the foundation of your application in the previous chapter, we wi
 
 17. Select the following fields:
 - purchaseReqn/_PurchaseRequisitionItem/Material
-- ItemText
+- purchaseReqn/_PurchaseRequisitionItem/PurchaseRequisitionItemText
 - purchaseReqn/_PurchaseRequisitionItem/OrderedQuantity
 - purchaseReqn/_PurchaseRequisitionItem/BaseUnit
 - purchaseReqn/_PurchaseRequisitionItem/Plant
