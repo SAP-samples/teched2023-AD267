@@ -14,13 +14,13 @@ Now you will create service entities for Purchase Requisition and S4H Purchase R
 Once the structure of your application is finished, you can add sample data to the application. You either can use the visual data editor or insert data using a CSV file.
 1. Go back to the storyboard of the application. Find the PurchaseRequisition in Data Models and choose *Set Sample Data*.
 ![](images/SampleData_001.png)
-2. Add data for PurchaseRequisition entity.
+2. Add data for PurchaseRequisition entity. Click on *Add* and keep *Mock Data* as ON.
 
 ![](images/SampleData_002.png)
 ![](images/SampleData_003.png)
 
-3. Add data for PurchaseReqn, S4H entity.
-![](images/Sample_Data_004.png)
+3. Add data for PurchaseReqn, S4H entity. Click on *Add* and keep *Mock Data* as ON.
+![](images/SampleData_004.png)
 
 Continue to - **[Build Exercise 4: SAP Add and consume an event from S/4HANA On-Premise](../../../buildcode/exercises/ex4/README.md)**
 
