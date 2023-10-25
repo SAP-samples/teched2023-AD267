@@ -7,7 +7,9 @@ Please make sure you have all the necessary prerequisites listed below. If not, 
 
 1. Check your access to ABAP Development Tools (ADT). To do this, open Eclipse. Click on Window -> Perspective -> Open Perspective -> Other and choose ABAP.
 
+![](images/eclipse_open_pers.png)
 
+![](images/open_abap.png)
 
 2. Logon to the SAP Build Lobby https://lcapteched.eu10.build.cloud.sap/lobby using a browser, preferably Google Chrome
 3. Your user is provided to you by the hosts of this session
