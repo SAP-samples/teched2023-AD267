@@ -37,6 +37,17 @@ The users for the development environment during the course are the User IDs tha
 
 Go to [Getting Started - Preparation](exercises/ex0/README.md) to find the installation details, and URLs, and then start with the first exercise.
 
+### Business Scenario 
+
+In this hands-on workshop, the scenario we will implement an online shop for employees which will allow creation of *Purchase Requisitions* by using a released RAP facade from Procurements.   
+ 
+ - An existing customer/partner wants to create a new business application that will allow employees of a company to order certain articles such as laptops for quick delivery using this shopping app. Purchase Requisition created can be viewed/approved by the Approver through an Application on cloud. This can be realized with the ABAP RESTful Application Programming Model (RAP) and SAP Build Code. 
+ 
+ - You’ll build an application starting from a database table using an ADT wizard that generates a starter project which contains all the needed development RAP artefacts that have to be implemented. The generated business service will be transactional, draft-enabled, and enriched with UI semantics for the generation of the Fiori elements app. This application will create a standard Purchase Requisition in S/4HANA On-Premise system
+
+ - Next, you will move to SAP Business Technology Platform's Build Code. You will create a Project in SAP Build Apps lobby using "Productivity Tools" option in SAP Business application Studio. You will get a story board to create data model, consume external resources (event & external API) from S/4HANA On-premise, draft enabled service and finally an UI application. This application will consume "Purchase Requisition Create" event from S/4HANA OP system and persist/approve it in HANA cloud.
+
+   
 ## Exercises
 
 - [Getting Started - Preparation](exercises/ex0/README.md)
