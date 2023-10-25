@@ -8,7 +8,7 @@ This repository contains the material for the SAP TechEd 2023 session called AD2
 
 ## Overview
 
-*SAP Build Code*
+### SAP Build Code
 
 Last year, SAP launched SAP Build to empower business experts to construct applications, implement automations and compose business sites. This year, the Build family is being expanded to offer a powerful shortcut for cloud application development with the introduction of SAP Build Code.
 
@@ -18,7 +18,7 @@ SAP Build Code unifies essential application development tools such as SAP Busin
 
 ![](images/img-build-code-benefits.png)
 
-*Exercise Overview*
+### Exercise Overview
 
 In this hands-on session, we will create a new service using the ABAP RESTful Application Programming Model (RAP) in an on-premise SAP S/4HANA system. This RAP service will generate an event which will then be consumed in an application created by you using the Cloud Programming Model (CAP) on the SAP Business Technology Platform (BTP).
 
