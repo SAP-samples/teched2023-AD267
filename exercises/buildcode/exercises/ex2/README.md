@@ -85,13 +85,18 @@ You should be on the Storyboard. If not, go to the Storyboard tab. Click on 'Pur
 
 ![](images/Association_002.png)
 
-10. Choose Create Button to save
+10. Choose the Create Button to save. You can now see the relationship between the external API and the PurchaseRequisition entity created by you.
+
 ![](images/Association_003.png)
 
-11. Now, go to the explorer. You will find the explorer as shown below:
+11. Now, go to the explorer. Click on the Hamburger icon -> View -> Explorer to open the Explorer tab.  
+![](images/FindExplorer.png)
+
 ![](images/Explorer_001.png)
+
 ![](images/Explorer_002.png)
-11. Open file *schema.cds* and replace the "Association" line with the following code:
+
+12. With SAP Business Application Studio, you are not restricted to using just the graphical modelers. Each modeler generates code files which you can open via the Explorer tab and edit. Open file *schema.cds* and replace the "Association" line with the following code:
 ![](images/Schema_001.png)
 
 ```js
@@ -100,7 +105,7 @@ purchaseReqn : Association to one S4H_Pur_Req.PurchaseReqn on purchaseReqn.Purch
 
 ![](images/Schema_002.png)
 
-This is the condition for association to S/4HANA API. Relationship between CAP model and S/4HANA model is established.
+This is the condition for association with S/4HANA API. The relationship between CAP model and S/4HANA model is established.
 
 Continue to - **[Build Exercise 3: SAP Create Service](../../../buildcode/exercises/ex3/README.md)**
 
