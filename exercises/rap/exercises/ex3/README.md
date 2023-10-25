@@ -373,7 +373,7 @@ Add it below the `public section.` line, so it looks like this:
 
    ![define_determinations](images/400_define_determinations.png) 
 
-4. Save ![save icon](../../images/adt_save.png) the changes.
+4. Save ![save icon](../../images/adt_save.png) and activate the changes.
 
 5. Click on the icon on the left hand side of the new line and invoke the generation of the new method
 
