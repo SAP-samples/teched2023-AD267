@@ -38,7 +38,7 @@ You also need a user on an SAP S/4HANA Cloud ABAP Environment system or on an SA
 … comes with SAP BTP and SAP S/4HANA  
 … works with public or private cloud, and even on-premise  
 
-This hands-on workshop will guide you to build developer extensions using *ABAP Cloud* in an SAP S/4HANA system using RAP facades. 
+This part of the hands-on workshop will guide you to build developer extensions using *ABAP Cloud* in an SAP S/4HANA system using RAP facades. 
 
 A RAP facade is a *released* business object interface built with the ABAP RESTful Application Programming Model (RAP).
 
@@ -46,7 +46,7 @@ You will create your own transactional Fiori Elements app with the ABAP RESTful 
 
 ### Business Scenario 
 
- The scenario we will implement will be an online shop for employees which will allow for the creation of *Purchase Requisitions* by using a released RAP facade from Procurements.   
+In this part of the hands-on workshop, the scenario we will implement will be an online shop for employees which will allow for the creation of *Purchase Requisitions* by using a released RAP facade from Procurements.   
  
  - An existing customer/partner wants to create a new business application that will allow employees of a company to order certain articles such as laptops for quick delivery using this shopping app. This can be realized with the ABAP RESTful Application Programming Model (RAP). 
  
