@@ -2,7 +2,10 @@
 
 Now you can start the development of your application. First you will model your application and define the database table and the relationship between the entities.
 
-1. Your application is opened on the Storyboard.
+1. Your application is opened on the Storyboard. This is the landing page that you can use to view your whole CAP application and UI in a semantic view. We will use the graphical modelers of SAP Business Application Studio to complete this part of the hands-on workshop. 
+
+*NOTE - everything in SAP Business Application Studio is auto-saved.*
+ 
  ![](images/Storyboard.png)
   
 2.  In this application, Data Model 'PurchaseRequisition' is needed to hold the data. To create a Data Model open SAP Business Application Studio' *Storyboard*, look for the tile Data Models and choose the + icon to add a new entity.
@@ -45,22 +48,22 @@ Now you can start the development of your application. First you will model your
     | F | Null | **Yes** (default) |
 ![](images/DataModel_001.png)
 
-4. Choose the Checkmark Icon to create the entity.
+5. Choose the Checkmark Icon to create the entity.
 
-5. Now, you can see an entity in the Data Model Editor.
+6. Now, you can see an entity in the Data Model Editor.
 
 ![](images/DataModel_011.png)
 
-6. In a next step you will add an external API to the project. Go to the **Service Center**, expand node **lcapteched** select *S4H_Pur_Req*. Click on the blue button on right hand side view **Add External Data Model**   
+7. In a next step you will add an external API to the project. Go to the **Service Center**, expand node **lcapteched** select *S4H_Pur_Req*. Click on the blue button on right hand side view **Add External Data Model**   
 
 ![](images/External_Data_Model_001.png)
 ![](images/External_Data_Model_002.png)
 
-7. Next you will describe the interconnection between PurchaseRequisition and External data model by defining a relationship, so each PurchaseRequisition on BTP has a S/4HANA Purchase Requisition associated to it. Click on the header of the table. Choose Add relationship Icon in the menu appearing on the right. 
+8. Next you will describe the interconnection between PurchaseRequisition and External data model by defining a relationship, so each PurchaseRequisition on BTP has a S/4HANA Purchase Requisition associated to it. Click on the header of the table. Choose Add relationship Icon in the menu appearing on the right. 
    
 ![](images/Association_000.png)
 
-8. A pop-up will appear. Select S4H_Pur_Req.PurchaseReqn and configure the relationship in the pop-up.In the pop-up screen enter all the required details:
+9. A pop-up will appear. Select S4H_Pur_Req.PurchaseReqn and configure the relationship in the pop-up.In the pop-up screen enter all the required details:
 
 - Select Type: Association
 - Select Direction: Unidirectional
@@ -72,10 +75,10 @@ Now you can start the development of your application. First you will model your
 
 ![](images/Association_001.png)
 
-9. Choose Create Button to save
+10. Choose Create Button to save
 ![](images/Association_003.png)
 
-10. Now, go to the explorer. You will find the explorer as shown below:
+11. Now, go to the explorer. You will find the explorer as shown below:
 ![](images/Explorer_001.png)
 ![](images/Explorer_002.png)
 11. Open file *schema.cds* and replace the "Association" line with the following code:
