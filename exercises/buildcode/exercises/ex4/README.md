@@ -31,9 +31,11 @@ Now you will go to the **Service Center** and add an event to the project.
 ![](images/Cqlinsert.png)
 
 11. Double-cick on CQL_Insert to open the right-hand panel.
+
+12. In the Entity, choose ManagePurchaseRequisition_XXXService.PurchaseRequisition. In the Column Name, choose "purchaserequisition" column from the drop-down, and paste "message.data.PurchaseRequisition" in the Values column
 ![](images/Event_007.png)
 
-12. Open Code Editor to view the code
+13. Open Code Editor -? Application Logic to view the code file.
 ![](images/Event_008.png)
 replace the **await** statement code with:
 ```js
