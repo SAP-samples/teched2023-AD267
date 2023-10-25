@@ -35,14 +35,8 @@ Go to [Getting Started - Preparation](exercises/ex0/README.md) to find the insta
 
 - [Getting Started - Preparation](exercises/ex0/README.md)
 - [Part 1 - ABAP ](exercises/rap/README.md)
-    | [How to connect with ADT to your SAP S/4HANA system](exercises/ex99/README.md) |  
-    | [Exercise 1: Create an ABAP Package](exercises/ex1/README.md) | 
-    | [Exercise 2: Create the OnlineShop Application](exercises/ex2/README.md) | 
-    | [Exercise 3: Adapt the data model](exercises/ex3/README.md) |
-    | [Exercise 4: Create a Web API for the Onlineshop](exercises/ex4/README.md) | 
 - [Part 2 - SAP Build Code](exercises/build/exercises/ex1/README.md)
   
-
 ## How to obtain support
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support bby creating a new issue via the [Issues](../../issues) tab.
