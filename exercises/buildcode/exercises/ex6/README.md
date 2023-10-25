@@ -56,5 +56,5 @@ Congratulations! You now have finished a working version of your application. In
 ![](images/EventMesh.png)
 
 5. Create data using S/4 preview app and repeat steps 5 to 9 from the above section to view the data created by live events.
-> Note: This data is temporarily persisted and will not be available if you rerun the application.
+> Note: This data is temporarily persisted and will not be available if you rerun your application.
 
