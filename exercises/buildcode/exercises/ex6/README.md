@@ -28,7 +28,16 @@ Congratulations! You now have finished a first version of your application. In t
 8. Click `Go` button to display the sample data
 ![](images/Run_App_002.png)
 
-9. Make sure you exit the preview mode after your test is finished by clicking **Stop Icon** in SAP BAS.
+9. Navigate to details of the Purchase Requisition.
+![](images/Run_App_002_1.png)
+
+10. Click on *Edit* from teh top right corner and update the status to "Approved".
+![](images/Run_App_002_2.png)
+
+12. Save
+![](images/Run_App_002_3.png)
+    
+13. Make sure you exit the preview mode after your test is finished by clicking **Stop Icon** in SAP BAS.
 ![](images/Run_App_003.png)
 
 # Run with Event Mesh
