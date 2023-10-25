@@ -34,7 +34,7 @@ Now you can start the development of your application. First you will model your
     | A | Name | **status** |
     | B | Type | **String** (default) |
     | C | Length | Leave empty |
-    | D | Default | Leave empty (default) |
+    | D | Default | Leave default value |
     | E | Key | Leave unchecked (default) |
     | F | Null | **Yes** (default) |
    
@@ -43,7 +43,7 @@ Now you can start the development of your application. First you will model your
     | A | Name | **comments** |
     | B | Type | **String** (default) |
     | C | Length | Leave empty |
-    | D | Default | Leave empty (default) |
+    | D | Default | Leave default value |
     | E | Key | Leave unchecked (default) |
     | F | Null | **Yes** (default) |
 ![](images/DataModel_001.png)
