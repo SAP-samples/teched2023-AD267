@@ -59,10 +59,10 @@ In this hands-on workshop, we will implement an online shop for employees which 
       
 - [Part 2 - SAP Build Code](exercises/buildcode/exercises/ex1/README.md)
   - [Build Exercise 2: Create Data Model](exercises/buildcode/exercises/ex2/README.md)
-  - [Build Exercise 3: SAP Create Service](../../../buildcode/exercises/ex3/README.md)
-  - [Build Exercise 4: Add and consume an event from S/4HANA On-Premise](../../../buildcode/exercises/ex4/README.md)
-  - [Build Exercise 5: Create UI application](../../../buildcode/exercises/ex5/README.md)
-  - [Build Exercise 6: Preview and test the app](../../../buildcode/exercises/ex6/README.md)
+  - [Build Exercise 3: SAP Create Service](exercises/buildcode/exercises/ex3/README.md)
+  - [Build Exercise 4: Add and consume an event from S/4HANA On-Premise](exercises/buildcode/exercises/ex4/README.md)
+  - [Build Exercise 5: Create UI application](exercises/buildcode/exercises/ex5/README.md)
+  - [Build Exercise 6: Preview and test the app](exercises/buildcode/exercises/ex6/README.md)
   
 ## How to obtain support
 
