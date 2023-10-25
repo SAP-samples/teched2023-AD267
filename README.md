@@ -7,6 +7,12 @@ This repository contains the material for the SAP TechEd 2023 session called AD2
 
 ## Overview
 
+### The Clean Core strategy
+SAP advocates keeping your Core Clean by using the various Extensibility Options given below.
+In this hands-on workshop, we shall make use of Developer Extensibility and Side-by-Side extensibility.
+
+
+
 ### SAP Build Code
 
 Last year, SAP launched SAP Build to empower business experts to construct applications, implement automations and compose business sites. This year, the Build family is being expanded to offer a powerful shortcut for cloud application development with the introduction of SAP Build Code.
