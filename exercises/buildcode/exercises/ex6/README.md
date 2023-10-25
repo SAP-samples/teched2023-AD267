@@ -1,4 +1,4 @@
-# Test Application with Sample Data
+# Preview and Test your Full-Stack Application
 
 ## Introduction
 
