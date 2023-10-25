@@ -38,7 +38,8 @@ Congratulations! You now have finished a working version of your application. In
 ![](images/Run_App_003.png)
 
 # Run with Event Mesh
-1. Go back to run configurations and set the "Events" to *Event Mesh*. This will enable the project to test events locally in SAP Build Code. You will be able to recieve events from the connected S/4HANA OP system. This data is temporarily persisted and will not be available if you rerun the application.
+> Note: Please delete the sample data before using the Event Mesh option.
+1. Go back to run configurations and set the "Events" to *Event Mesh*. This will enable the project to test events in SAP Build Code. You will be able to recieve events from the connected S/4HANA OP system. 
 ![](images/Run_EventMesh.png)
 
 2. It will ask for CF login. Provide your username and password to login.
@@ -52,5 +53,5 @@ Congratulations! You now have finished a working version of your application. In
 ![](images/EventMesh.png)
 
 5. Create data using S/4 preview app and repeat steps 5 to 9 from the above section to view the data created by live events.
-   
-> Note: Please delete the sample data before using the Event Mesh option.
+> Note: This data is temporarily persisted and will not be available if you rerun the application.
+
