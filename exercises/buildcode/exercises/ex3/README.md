@@ -13,11 +13,11 @@ Now you will create service entities for Purchase Requisition and S4H Purchase R
 # Add Sample Data
 Once the structure of your application is finished, you can add sample data to the application. You either can use the visual data editor or insert data using a CSV file.
 1. Go back to the storyboard of the application. Find the PurchaseRequisition in Data Models and choose *Set Sample Data*.
-![](images/Sample_Data_001.png)
+![](images/SampleData_001.png)
 2. Add data for PurchaseRequisition entity.
 
-![](images/Sample_Data_002.png)
-![](images/Sample_Data_003.png)
+![](images/SampleData_002.png)
+![](images/SampleData_003.png)
 
 3. Add data for PurchaseReqn, S4H entity.
 ![](images/Sample_Data_004.png)
