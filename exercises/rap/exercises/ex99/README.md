@@ -15,7 +15,7 @@ This document describes how to create an **ABAP Project** to connect to an SAP S
    
    Then enter the following connection information (The IP address of the application server is provided by the instructors)
    - System ID: S4H
-   - Application Server: xxx.xxx.xxx.xxx
+   - Application Server: 54.157.108.98
    - Instance Number: 00
    
    and **deactivate** the check box **Activate Secure Network Communication (SNC)**
