@@ -10,7 +10,7 @@ To create such a scenario we need to do the following:
 1. [create a project in SAP Build Lobby](exercises/buildcode/exercises/ex1/README.md)
 2. [create data model for purchase requisition for local persistence and add an external API association ](../../../buildcode/exercises/ex2/README.md)
 3. [Create Service](../../../buildcode/exercises/ex3/README.md)[add and consume an event from S/4HANA On-Premise](../../../buildcode/exercises/ex4/README.md)
-4. [add and consume an event from S/4HANA On-Premise](../../../buildcode/exercises/ex4/README.md)create service
+4. [add and consume an event from S/4HANA On-Premise](../../../buildcode/exercises/ex4/README.md)
 5. [create UI application](../../../buildcode/exercises/ex5/README.md)
 6. [preview and test the app](../../../buildcode/exercises/ex6/README.md)
 
