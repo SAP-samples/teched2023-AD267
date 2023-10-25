@@ -34,7 +34,7 @@ Congratulations! You now have finished a working version of your application. In
 10. Click on *Edit* from the top right corner to review the Purchase Requisition and update the status to "Approved" or "Rejected". Save.
 ![](images/Run_002_2.png)
     
-11. Make sure you exit the preview mode after your test is finished by clicking **Stop Icon** in SAP BAS.
+11. Make sure you exit the preview mode after your test is finished by clicking **Stop Icon** in SAP Build Code.
 ![](images/Run_App_003.png)
 
 # Run with Event Mesh
