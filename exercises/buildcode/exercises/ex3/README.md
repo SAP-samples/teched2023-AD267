@@ -19,7 +19,7 @@ Once the structure of your application is finished, you can add sample data to t
 ![](images/SampleData_002.png)
 ![](images/SampleData_003.png)
 
-3. Add data for PurchaseReqn, S4H entity. Click on *Add* and keep *Mock Data* as ON.
+3. Repeat the above step for PurchaseReqn, S4H entity. Click on *Add* and keep *Mock Data* as ON.
 ![](images/SampleData_004.png)
 
 Continue to - **[Build Exercise 4: SAP Add and consume an event from S/4HANA On-Premise](../../../buildcode/exercises/ex4/README.md)**
