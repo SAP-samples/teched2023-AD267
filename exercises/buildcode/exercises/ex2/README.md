@@ -84,6 +84,7 @@ purchaseReqn : Association to one S4H_Pur_Req.PurchaseReqn on purchaseReqn.Purch
 
 ![](images/Schema_002.png)
 
+This is the condition for association to S/4HANA API.
 
 Continue to - **[Build Exercise 3: SAP Create Service](../../../buildcode/exercises/ex3/README.md)**
 
