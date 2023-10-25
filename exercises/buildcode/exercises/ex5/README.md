@@ -13,50 +13,61 @@ After defining the foundation of your application in the previous chapter, we wi
 4. Choose UI application template as List Report Page. Choose Next.
 ![](images/UI_004.png)
 
-5. Select main entity PurchaseRequisition as main entity in Data Objects, to show PurchaseRequisition entity on UI. Choose Finish.
+5. Select PurchaseRequisition as the main entity in Data Objects, to show PurchaseRequisition entity on UI. Choose Finish.
 ![](images/UI_005.png)
 
-6. Page Map will open automatically in few seconds. If not, goto Storyboard to find the tile UI Applications and click on *Manage Purchase Requisition* to select "Open in Page Map".
+6. Page Map will open automatically in a few seconds. If not, go to Storyboard to find the tile UI Applications and click on *Manage Purchase Requisition* to select "Open in Page Map".
 ![](images/UI_006.png)
    
 7. In the Page Map, find the List Page entry and choose the edit icon.
 ![](images/UI_007.png)
    
-8. Add the following fields to the list page
+8. Add the following fields to the list page by clicking on the + near Columns
+   ![](images/Plus.png)
 
+9. Click on Add Basic Columns
+![](images/AddBasic.png)
+
+11. Add the following columns:
 - Purchase Requisition
-- purchaseReqn/PurReqnDescription
-- Status
-- Comments
-- purchaseReqn/_PurchaseRequisitionItem/PurchasingDocument
+- PurReqnDescription
+- _PurchaseRequisitionItem/PurchasingDocument
+![](images/ListPageCols.png)
+
 ![](images/UI_008.png)
 > Note: Though Purchasing Document is an item level field, it is used on list page to keep it simple for the use case. It has 1:n relationship with Purchase Requisition number.
 
 9. Find the Object Page entry and choose the edit icon.
 ![](images/UI_009.png)
 
-10. Expand the **Header** section and add field 'Purchase Requisition' in *Header Sections*
+10. Expand the **Header** section and add Basic Columns.
+![](images/HeaderBasic.png)
+
+11.  Add the field 'Purchase Requisition' in *Header Sections*
 ![](images/UI_010.png)
 
-11. In **Sections** under *General Information* add the following fields
-- purchaseReqn/PurReqnDescription
-- purchaseReqn/DocumentType
-- Status
-- Comments
+12. In **Sections** under *General Information* add the following fields
+- PurReqnDescription
+- PurchaseRequisitionType
+
+![](images/ObjectCols.png)
+
 ![](images/UI_011.png)
 
-12. Next, choose the + icon to add a new section. In the dropdown, select Add Form Section.
+13. Next, choose the + icon to add a new section. In the dropdown, select Add Form Section.
+![](images/AddForm.png)
+    
 ![](images/UI_012.png)
  
-13. In the popup enter Label as "Item Details".
+14. In the popup enter Label as "Item Details".
 ![](images/UI_013.png)
  
-14. Click on Add button to save.
+15. Click on Add button to save.
 
-15. In the Sections, open "Items Details". Choose the + icon on right side of "Fields", to add new fields to Item Details. In the popover, select "Add Basic Columns".
+16. In the Sections, open "Items Details". Choose the + icon on right side of "Fields", to add new fields to Item Details. In the popover, select "Add Basic Columns".
 ![](images/UI_015.png)  
 
-16. Select the following fields from *purchaseReqn/_PurchaseRequisitionItem*
+17. Select the following fields from *purchaseReqn/_PurchaseRequisitionItem*
 
 - Material
 - ItemText
