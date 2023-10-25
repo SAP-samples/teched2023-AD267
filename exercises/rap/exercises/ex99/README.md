@@ -28,7 +28,7 @@ This document describes how to create an **ABAP Project** to connect to an SAP S
     
    - Client: 100
    - User: lowcode###
-   - Password: xxxxxxxx
+   - Password: Abcd###!$
    - Language: EN
 
    Press Next
