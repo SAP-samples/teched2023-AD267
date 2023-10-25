@@ -34,7 +34,7 @@ After defining the foundation of your application in the previous chapter, we wi
 - _PurchaseRequisitionItem/PurchasingDocument
 ![](images/ListPageCols.png)
 
-> Note: Though Purchasing Document is an item level field, it is used on list page to keep it simple for the use case. It has 1:n relationship with Purchase Requisition number.
+> Note: Though Purchasing Document is an item-level field, it is used on list page to keep it simple for the use case. It has 1:n relationship with Purchase Requisition number.
 
 9. Find the Object Page entry and choose the edit icon.
 ![](images/UI_009.png)
@@ -51,9 +51,10 @@ After defining the foundation of your application in the previous chapter, we wi
 
 ![](images/ObjectCols.png)
 
+13. Next, choose the + icon to add a new section. In the dropdown, select Add Form Section.
+
 ![](images/UI_011.png)
 
-13. Next, choose the + icon to add a new section. In the dropdown, select Add Form Section.
 ![](images/AddForm.png)
     
 ![](images/UI_012.png)
