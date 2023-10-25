@@ -80,10 +80,10 @@ You should be on the Storyboard. If not, go to the Storyboard tab. Click on 'Pur
 - Key property: No
 - Select Multiplicity: To-One
 - Target Entity: S4H_Pur_Req.PurchaseReqn
-- 
-![](images/Association_002.png)
-
+  
 ![](images/Association_001.png)
+
+![](images/Association_002.png)
 
 10. Choose Create Button to save
 ![](images/Association_003.png)
