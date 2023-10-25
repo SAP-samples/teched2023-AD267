@@ -51,20 +51,19 @@ After defining the foundation of your application in the previous chapter, we wi
 
 ![](images/ObjectCols.png)
 
-13. Next, choose the + icon to add a new section. In the dropdown, select Add Form Section.
+13. Next, choose the + icon next to Sections to add a new section. In the dropdown, select Add Form Section.
 
-![](images/UI_011.png)
+![](images/UI_012.png)
 
 ![](images/AddForm.png)
     
-![](images/UI_012.png)
  
 14. In the popup enter Label as "Item Details".
 ![](images/UI_013.png)
  
 15. Click on Add button to save.
 
-16. In the Sections, open "Items Details". Choose the + icon on right side of "Fields", to add new fields to Item Details. In the popover, select "Add Basic Columns".
+16. In the Sections, open "Items Details". Choose the + icon on the right side of "Form" -> "Fields", to add new fields to Item Details. In the popover, select "Add Basic Columns".
 ![](images/UI_015.png)  
 
 17. Select the following fields from *purchaseReqn/_PurchaseRequisitionItem*
