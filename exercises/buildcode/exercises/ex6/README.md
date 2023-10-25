@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Congratulations! You now have finished a first version of your application. In this section, you will perform a quick test run using the  in SAP Business Application Studio with sample data to try out the application.
+Congratulations! You now have finished a working version of your application. In this section, you will perform a quick test run using the in SAP Business Application Studio with sample data to try out the application.
 
 ## Preview SAP BTP Application
 
-1. Make sure you have opened **SAP Business Application Studio** and navigate to the **Storyboard**.
+1. Make sure you are on the **Storyboard**.
 
 2. Choose the **[Run Configuration](https://help.sap.com/docs/bas/developing-business-applications-using-productivity-tools/testing-applications?q=run%20and%20debug)** button from the left panel of your screen.
 
