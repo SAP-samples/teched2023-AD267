@@ -54,8 +54,8 @@ Now you can start the development of your application. First you will model your
 
 ![](images/DataModel_011.png)
 
-7. In a next step you will add an external API to the project. Go to the **Service Center**, expand node **lcapteched** select *S4H_Pur_Req*. Click on the blue button on right hand side view **Add External Data Model**   
-
+7. In a next step you will add an external API to the project. Go back to the Storyboard tab and click on the "+" under External Resources. This will take you to the **Service Center**, expand node **lcapteched** select *S4H_Pur_Req*. Click on the blue button on right hand side view **Add External Data Model**   
+![](images/ExternalRes.png)
 ![](images/External_Data_Model_001.png)
 ![](images/External_Data_Model_002.png)
 
