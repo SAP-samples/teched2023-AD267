@@ -48,7 +48,7 @@ Now you can start the development of your application. First you will model your
     | F | Null | **Yes** (default) |
 ![](images/DataModel_001.png)
 
-5. Choose the Checkmark Icon to create the entity.
+5. Check that the entity is updated with the fields. Close the right-hand panel.
 
 6. Now, you can see an entity in the Data Model Editor.
 
