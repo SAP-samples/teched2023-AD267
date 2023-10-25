@@ -12,7 +12,7 @@ To create such a scenario we need to do the following:
 3. Add an event to the project and consume it
 4. create service
 5. create UI
-6. preview and test the app
+6. [preview and test the app](../../../buildcode/exercises/ex6/README.md)
 
 # Create a new Project in the SAP Build Lobby
 Hint: Please use Google Chrome or Microsoft Edge to follow the exercises
