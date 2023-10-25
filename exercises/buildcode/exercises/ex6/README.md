@@ -12,13 +12,13 @@ Congratulations! You now have finished a working version of your application. In
 
 ![](images/Run_001.png)
 
-3. Set the configuration in OData to run with "Live" data and select the destination for "S4H_Pur_Req service" as "S4H_Pur_Req".
+3. Set the configuration in OData to run with "Live" data and select the destination for "S4H_Pur_Req service" as "S4H_Pur_Req". This is to ensure that you get the data from Live S/4HANA on-premise system.
 ![](images/Run_003.png)
 
-4. Scroll to the bottom of the screen, ensure "Events" is set to local.
+4. Scroll to the bottom of the screen, ensure "Events" is set to local. This will enable us to test the application locally with sample data.
 ![](images/Run_002.png)
 
-5. Run the application from the green icon on right side of Run COnfiguration name.
+5. Run the application from the green icon on right side of Run Configuration name.
 ![](images/Run_004.png)
 
 6. A new browser tab will open showing your application.
@@ -38,7 +38,7 @@ Congratulations! You now have finished a working version of your application. In
 ![](images/Run_App_003.png)
 
 # Run with Event Mesh
-1. Go back to run configurations and set the "Events" to *Event Mesh*.
+1. Go back to run configurations and set the "Events" to *Event Mesh*. This will enable the project to test events locally in SAP Build Code. You will be able to recieve events from the connected S/4HANA OP system. This data is temporarily persisted and will not be available if you rerun the application.
 ![](images/Run_EventMesh.png)
 
 2. It will ask for CF login. Provide your username and password to login.
