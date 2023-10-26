@@ -33,7 +33,7 @@ Now you can start the development of your application. First you will model your
     |:-----|:----------|:------|
     | A | Name | **status** |
     | B | Type | **String** (default) |
-    | C | Length | Leave empty |
+    | C | Length | Leave default value |
     | D | Default | Leave default value |
     | E | Key | Leave unchecked (default) |
     | F | Null | **Yes** (default) |
@@ -42,7 +42,7 @@ Now you can start the development of your application. First you will model your
     |:-----|:----------|:------|
     | A | Name | **comments** |
     | B | Type | **String** (default) |
-    | C | Length | Leave empty |
+    | C | Length | Leave default value |
     | D | Default | Leave default value |
     | E | Key | Leave unchecked (default) |
     | F | Null | **Yes** (default) |
