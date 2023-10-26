@@ -51,7 +51,7 @@ Congratulations! You now have finished a working version of your application. In
 4. Click on the link below "Create a new Event Mesh Instance" to create a one-time local setup for event processing. This step is required only once for every project.
 
 ![](images/EventMesh.png)
-This will automatically create the Event Mesh Client and Queue for local testing. Refer to the details of the setup [here].
+This will automatically create the Event Mesh Client and Queue for local testing. Refer to the details of the setup [here](../../../buildcode/exercises/ex6/appendix.md).
 
 5. Create data using S/4 preview app and repeat steps 5 to 9 from the above section to view the data created by live events.
 > Note: This data is temporarily persisted and will not be available if you rerun your application.
