@@ -43,20 +43,25 @@ Congratulations! You now have finished a working version of your application. In
 ![](images/Run_EventMesh.png)
 
 2. It will ask for CF login. Make sure that the Cloud Foundry endpoint is  "https://api.cf.eu10-004.hana.ondemand.com". Now, click on SSO Passcode.
+
 ![](images/CF.png)
 
 3. Next, provide the value 'lcap-platform' and choose 'Sign in with Alternative Identity Provider'
+
 ![](images/GetSSO.png)
 
 4. You will get another page with the passcode. Copy this passcode in to the CF panel and log in.
+
 ![](images/SSOCode.png)
 
 6. Once you are logged in, select the Org as 'TechEdLCAP_lcapteched' and Devspace as 'dev'.
+
 ![](images/Run_CF_001.png)
 
 7. Click on the link below "Create a new Event Mesh Instance" to create a one-time local setup for event processing. This step is required only once for every project.
 
 ![](images/EventMesh.png)
+
 This will automatically create the Event Mesh Client and Queue for local testing. Refer to the details of the setup [here](../../../buildcode/exercises/ex6/appendix.md).
 
 5. Create data using S/4 preview app and repeat steps 5 to 9 from the above section to view the data created by live events.
