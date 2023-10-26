@@ -66,7 +66,13 @@ This will automatically create the Event Mesh Client and Queue for local testing
 
 5. Create data using **[S/4 preview app](https://github.com/SAP-samples/teched2023-AD267/tree/main/exercises/rap/exercises/ex3#exercise-36-check-your-preview-application)** (open in new tab) and repeat steps 5 to 9 from the above section to view the data created by live events.
 
-6. Once you create a order in RAP UI, you should be able to see the same Purchase Requisition on the SAP Build Code UI. Creation of an order in RAP triggers *Purchase Order Created* event in S/4HANA OP system, which is consumed in SAP Build Code CAP backend using event mesh. You can view the same Purchase Requisition on your UI application in SAP Build Code.
+**RAP Order-Purchase Requisition**
+![](images/RunApp_RAP.png)
+
+**BuildCode-Purchase Requisition**
+![](images/RunApp_BuildCode.png)
+
+7. Once you create a order in RAP UI, you should be able to see the same Purchase Requisition on the SAP Build Code UI. Creation of an order in RAP triggers *Purchase Order Created* event in S/4HANA OP system, which is consumed in SAP Build Code CAP backend using event mesh. You can view the same Purchase Requisition on your UI application in SAP Build Code.
 
 > Note: This data is temporarily persisted and will not be available if you rerun your application.
 
