@@ -42,13 +42,19 @@ Congratulations! You now have finished a working version of your application. In
 1. Go back to run configurations and set the "Events" to *Event Mesh*. This will enable the project to test events in SAP Build Code. You will be able to recieve events from the connected S/4HANA OP system. 
 ![](images/Run_EventMesh.png)
 
-2. It will ask for CF login. Provide your username and password to login.
-![](images/Run_CF.png)
+2. It will ask for CF login. Make sure that the Cloud Foundry endpoint is  "https://api.cf.eu10-004.hana.ondemand.com". Now, click on SSO Passcode.
+![](images/CF.png)
 
-3. Select the Devspace as "dev".
+3. Next, provide the value 'lcap-platform' and choose 'Sign in with Alternative Identity Provider'
+![](images/GetSSO.png)
+
+4. You will get another page with the passcode. Copy this passcode in to the CF panel and log in.
+![](images/SSOCode.png)
+
+6. Once you are logged in, select the Org as 'TechEdLCAP_lcapteched' and Devspace as 'dev'.
 ![](images/Run_CF_001.png)
 
-4. Click on the link below "Create a new Event Mesh Instance" to create a one-time local setup for event processing. This step is required only once for every project.
+7. Click on the link below "Create a new Event Mesh Instance" to create a one-time local setup for event processing. This step is required only once for every project.
 
 ![](images/EventMesh.png)
 This will automatically create the Event Mesh Client and Queue for local testing. Refer to the details of the setup [here](../../../buildcode/exercises/ex6/appendix.md).
