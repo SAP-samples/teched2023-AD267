@@ -14,7 +14,7 @@ We will start our implementation by building a simple managed RAP business objec
 You will use an ADT wizard to generate all the needed development RAP artefacts of your UI service. This includes the data model, projection view, service definition and service binding. Afterwards you will check your _OnlineShop_ application with the SAP Fiori elements preview. 
 
 > **Reminder:**   
-> Don't forget to replace all occurences of the placeholder **`###`** with your group ID in the exercise steps below.  
+> Don't forget to replace all occurences of the placeholder **`###`** with the 3-digit code in your ABAP username in the exercise steps below.  
 > You can use the ADT function **Replace All** (**Ctrl+F**) for the purpose.    
 
 
