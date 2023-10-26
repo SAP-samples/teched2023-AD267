@@ -41,4 +41,7 @@ replace the **await** statement code with the line below. Make sure to replace X
 ```js
 await INSERT .into `ManagePurchaseRequisitionXXXService.PurchaseRequisition` .entries({purchaserequisition:message.data.PurchaseRequisition});
 ```
+The code should look like this
+![](images/EventCode.png)
+
 Continue to - **[Build Exercise 5: Create UI application](../../../buildcode/exercises/ex5/README.md)**
