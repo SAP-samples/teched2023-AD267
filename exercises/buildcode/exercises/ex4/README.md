@@ -35,7 +35,7 @@ Now you will go to the **Service Center** and add an event to the project.
 12. In the Entity, choose ManagePurchaseRequisition_XXXService.PurchaseRequisition. In the Column Name, choose "purchaserequisition" column from the drop-down, and paste "message.data.PurchaseRequisition" in the Values column
 ![](images/Event_007.png)
 
-13. Open Code Editor -? Application Logic to view the code file.
+13. Open Code Editor -> Application Logic to view the code file.
 ![](images/Event_008.png)
 replace the **await** statement code with the line below. Make sure to replace XXX with the 3-digit number of your username:
 ```js
