@@ -5,7 +5,7 @@ Please make sure you have all the necessary prerequisites listed below. If not, 
 
 ## Prerequisites
 
-1.For this exercise you will need two sets of users - one for ABAP and one for SAP Build Code. You can find the list of users here - . Users are assigned according to your seat in the hands-on session. In case of confusion, please reach out to one of the moderators.
+1.For this exercise you will need two sets of users - one for ABAP and one for SAP Build Code. You can find the list of users ![here] (https://github.com/SAP-samples/teched2023-AD267/blob/main/exercises/ex0/images/AD267_Users.xlsx) . Users are assigned according to your seat in the hands-on session. In case of confusion, please reach out to one of the moderators.
 
 2. Check your access to ABAP Development Tools (ADT). To do this, open Eclipse. Click on Window -> Perspective -> Open Perspective -> Other and choose ABAP.
 
