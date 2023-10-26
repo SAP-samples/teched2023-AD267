@@ -1,6 +1,6 @@
 # Event Configuration #
 
-** SAP Business Technology Platform Event Mesh **
+**SAP Business Technology Platform Event Mesh**
 
 - Goto Event Mesh application [Event Mesh](https://lcapteched.enterprise-messaging.cfapps.eu10.hana.ondemand.com/#/message_clients)
 - Review the Message Client. You will see a local client and queue created automatically as shown below
