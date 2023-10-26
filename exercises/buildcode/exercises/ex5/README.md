@@ -39,13 +39,17 @@ After defining the foundation of your application in the previous chapter, we wi
 9. Find the Object Page entry and choose the edit icon.
 ![](images/UI_009.png)
 
-10. Expand the **Header** section and add Basic Columns.
+10. Expand the **Header** section and add a Form Section and name it "Purchase Requisition".
+![](images/HeaderForm_001.png)
+![](images/HeaderForm_002.png)
+
+12. Next add Basic Columns.
 ![](images/HeaderBasic.png)
 
-11.  Add the field 'Purchase Requisition' in *Header Sections*
+13.  Add the field 'Purchase Requisition' in *Header Sections*
 ![](images/UI_010.png)
 
-12. In **Sections** -> *General Information* -> Form -> Fields, add the following fields
+14. In **Sections** -> *General Information* -> Form -> Fields, add the following fields
 - PurReqnDescription
 - PurchaseRequisitionType
 
