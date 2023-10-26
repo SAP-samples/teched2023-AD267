@@ -8,7 +8,7 @@ Congratulations! You now have finished a working version of your application. In
 
 1. Make sure you are on the **Storyboard**.
 
-2. Choose the **[Run Configuration](https://help.sap.com/docs/bas/developing-business-applications-using-productivity-tools/testing-applications?q=run%20and%20debug)** button from the left panel of your screen.
+2. Choose the **[Run Configuration](https://help.sap.com/docs/bas/developing-business-applications-using-productivity-tools/testing-applications?q=run%20and%20debug)** button from the left panel of your screen. Double-click on “Run managepurchaserequisitionXXX-1”. This will open the Run Configurations panel.
 
 ![](images/Run_001.png)
 
