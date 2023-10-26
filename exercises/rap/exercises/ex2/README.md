@@ -84,7 +84,7 @@ The generated business service will be transactional, draft-enabled, and enriche
    3. Maintain the required information on the **Configure Generator** dialog to provide the name of your data model and generate them.         
 
       For that, navigate through the wizard tree (_Business Objects_, _Data Model_, etc...), maintain the artefact names provided in the table below, 
-      and press **Next >**.
+      and press **Next**.
  
       Verify the maintained entries and press **Next >** to confirm. 
 
