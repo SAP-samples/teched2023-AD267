@@ -1,6 +1,6 @@
-# How to connect to an SAP S/4HANA on premise or private cloud system 
+# How to connect to an SAP S/4HANA on-premise or private cloud system 
 
-This document describes how to create an **ABAP Project** to connect to an SAP S/4HANA on premise or private cloud system.  
+This document describes how to create an **ABAP Project** to connect to an SAP S/4HANA on-premise or private cloud system.  
 
 
 1. Click on  **File > New > New ABAP Project**
@@ -24,7 +24,7 @@ This document describes how to create an **ABAP Project** to connect to an SAP S
 
    ![Connection Settings](images/120_create_a_new_abap_project.png)
 
-4. In the *Logon to System* dialogue enter the following data. The user for you and the password are provided to you by the instructors
+4. In the *Logon to System* dialogue enter the following data. You will be using the ABAP user given to you by the instructors
     
    - Client: 100
    - User: lowcode###
@@ -43,7 +43,7 @@ This document describes how to create an **ABAP Project** to connect to an SAP S
 
 7. Add `ZLOCAL` to your favorites packages.  
 
-   - Right click on the folder **Favorite Packages** in your newly created ABAP project.   
+   - Right-click on the folder **Favorite Packages** in your newly created ABAP project.   
 
    ![add_to_favorites](images/99_100_add_zlocal_to_favorites.png)  
    
