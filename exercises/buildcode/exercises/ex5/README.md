@@ -28,25 +28,28 @@ After defining the foundation of your application in the previous chapter, we wi
 9. Click on Add Basic Columns
 ![](images/AddBasic.png)
 
-11. Add the following columns:
+10. Add the following columns:
 - Purchase Requisition
 - PurReqnDescription
 - _PurchaseRequisitionItem/PurchasingDocument
+
 ![](images/ListPageCols.png)
 
 > Note: Though Purchasing Document is an item-level field, it is used on list page to keep it simple for the use case. It has 1:n relationship with Purchase Requisition number.
 
-9. Find the Object Page entry and choose the edit icon.
+11. Find the Object Page entry and choose the edit icon.
+
 ![](images/UI_009.png)
 
-10. Expand the **Header** section and add a Form Section and name it "Purchase Requisition".
+12. Expand the **Header** section and add a Form Section and name it "Purchase Requisition".
+
 ![](images/HeaderForm_001.png)
 ![](images/HeaderForm_002.png)
 
-12. Next add Basic Fields.
+13. Next add Basic Fields.
 ![](images/HeaderForm_003.png)
 
-13.  Add the field 'Purchase Requisition' in *Header Sections*
+14.  Add the field 'Purchase Requisition' in *Header Sections*
 ![](images/HeaderForm_004.png)
 ![](images/UI_010.png)
 
@@ -56,22 +59,22 @@ After defining the foundation of your application in the previous chapter, we wi
 
 ![](images/ObjectCols.png)
 
-13. Next, choose the + icon next to Sections to add a new section. In the dropdown, select Add Form Section.
+16. Next, choose the + icon next to Sections to add a new section. In the dropdown, select Add Form Section.
 
 ![](images/UI_012.png)
 
 ![](images/AddForm.png)
     
  
-14. In the popup enter Label as "Item Details".
+17. In the popup enter Label as "Item Details".
 ![](images/UI_013.png)
  
-15. Click on Add button to save.
+18. Click on Add button to save.
 
-16. In the Sections, open "Items Details". Choose the + icon on the right side of "Form" -> "Fields", to add new fields to Item Details. In the popover, select "Add Basic Columns".
+19. In the Sections, open "Items Details". Choose the + icon on the right side of "Form" -> "Fields", to add new fields to Item Details. In the popover, select "Add Basic Columns".
 ![](images/UI_015.png)  
 
-17. Select the following fields:
+20. Select the following fields:
 - purchaseReqn/_PurchaseRequisitionItem/Material
 - purchaseReqn/_PurchaseRequisitionItem/PurchaseRequisitionItemText
 - purchaseReqn/_PurchaseRequisitionItem/OrderedQuantity
