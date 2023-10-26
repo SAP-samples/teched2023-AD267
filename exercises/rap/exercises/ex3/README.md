@@ -613,7 +613,7 @@ with unmanaged save
 
 3. Save ![save icon](../../images/adt_save.png) and activate all ![activate icon](../../images/adt_activateAll.png) the changes.
 
-4. After having activated your changes select the key word `unmanaged` and select Ctrl + 1 (Command +1 on Mac) to start the code assistant.
+4. After having activated your changes select the key word `unmanaged` and select Ctrl + 1 (Command +1 on Mac) followed by a double-click on “Add required method …” to start the code assistant.
 
 ![define_determinations](images/420_define_determinations.png) 
 
