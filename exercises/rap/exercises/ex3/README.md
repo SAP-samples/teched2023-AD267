@@ -79,7 +79,7 @@ association [1..1] to ZI_PRODUCT_VH_REUSE as _Product on $projection.OrderItemID
 
 ![enhance_data_model](images/115_adapt_data_model.png) 
 
-  Replace the placeholder `###` with your group ID and save and activate your changes.    
+  Replace the placeholder `###` with the 3-digit code in your ABAP username and save and activate your changes.    
 
  
 <pre lang="ABAP">
