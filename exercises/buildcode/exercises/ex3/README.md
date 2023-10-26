@@ -6,7 +6,7 @@ Now you will create service entities for Purchase Requisition and S4H Purchase R
 
 ![](images/Service_001.png)
 
-2. On the next screen, select ManagePurchaseRequisition-<Your-User-ID>.PurchaseRequisition and choose Ok to finish.
+2. On the next screen, select ManagePurchaseRequisitionXXX.PurchaseRequisition (where XXX is the 3-digit code provided in your SAP Build Code username) and choose Ok to finish.
 
 ![](images/Service_002.png)
 
