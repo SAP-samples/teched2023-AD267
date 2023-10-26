@@ -190,20 +190,24 @@ For fields that are read-only and that are not read from the value help we have 
    OverallStatus,
   </pre>
 
-  behind
+ before
 
   <pre lang="ABAP">
-{
-  field ( readonly )
-   OrderUUID,
+  field ( readonly ) OrderUUID,
   </pre>
 
   in order to make the Order ID a read-only field.
    
-  And add the following after the ** field (readonly ) OrderUUID, **
+  And add the following 
   <pre lang="ABAP">
         field ( mandatory:create, readonly:update ) Product;
    </pre>
+   after the 
+   <pre lang="ABAP">
+  field ( readonly ) OrderUUID,
+  </pre>
+
+  in order to make the Product mandatory and editable on Create and read only during edit operations.
   
   ![adapt_bdef](images/220_adapt_bdef.png)  
  
