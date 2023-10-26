@@ -65,5 +65,8 @@ Congratulations! You now have finished a working version of your application. In
 This will automatically create the Event Mesh Client and Queue for local testing. Refer to the details of the setup [here](../../../buildcode/exercises/ex6/appendix.md).
 
 5. Create data using **[S/4 preview app](https://github.com/SAP-samples/teched2023-AD267/tree/main/exercises/rap/exercises/ex3#exercise-36-check-your-preview-application)** (open in new tab) and repeat steps 5 to 9 from the above section to view the data created by live events.
+
+6. Once you create a new entry in the ABAP UI, you should be able to see the same entry on the SAP Build Code UI. This happens because creation of a new entry on the Fiori Elements UI on the ABAP side triggers a Purchase Requisition event which is consumed in the SAP Build Code CAP backend and then shown on the SAP Build Code Fiori Elements UI. 
+
 > Note: This data is temporarily persisted and will not be available if you rerun your application.
 
