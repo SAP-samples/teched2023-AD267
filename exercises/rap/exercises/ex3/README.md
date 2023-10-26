@@ -518,7 +518,7 @@ with the following code:
 7. Replace the placeholder `###` with your group ID.
 8. Add the following code to the end of the method **CalculateOrderID** before the **ENDMETHOD** statement.
    <pre lang="ABAP">
-             LOOP AT OnlineOrders INTO DATA(OnlineOrder) WHERE Product IS NOT INITIAL. " AND %IS_DRAFT = '00'.
+             LOOP AT OnlineOrders INTO DATA(OnlineOrder) WHERE Product IS NOT INITIAL. 
                    MODIFY ENTITIES OF ZR_OnlineShop_XXX IN LOCAL MODE
                     ENTITY OnlineShop EXECUTE CreatePurchaseRequisition FROM CORRESPONDING #( keys ).
               ENDLOOP.
@@ -560,7 +560,7 @@ with the following code:
                     ALL FIELDS
                     WITH CORRESPONDING #( keys )
                   RESULT OnlineOrders.
-          LOOP AT OnlineOrders INTO DATA(OnlineOrder) WHERE Product IS NOT INITIAL. " AND %IS_DRAFT = '00'.
+          LOOP AT OnlineOrders INTO DATA(OnlineOrder) WHERE Product IS NOT INITIAL.
              MODIFY ENTITIES OF ZR_OnlineShop_XXX IN LOCAL MODE
               ENTITY OnlineShop EXECUTE CreatePurchaseRequisition FROM CORRESPONDING #( keys ).
           ENDLOOP.
