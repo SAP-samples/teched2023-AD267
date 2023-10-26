@@ -21,10 +21,10 @@ Execrises 1.1 - 1.3 are essential for the exercise, the following exercises 1.4 
 > You can use the ADT function **Replace All** (**Ctrl+F**) for the purpose.   
 > If you don't have an ABAP user yet, please check with your instructor.    
 
-## Exercise 1.1: Create Package with language version ABAP for Cloud Development
+## Exercise 1.1: Create a Package with language version ABAP for Cloud Development
 
 > Create your exercise package ![package](../../images/adt_package.png).   
-> This ABAP package will contain all the artefacts you will be creating in the different exercises of this hands-on session.
+> This ABAP package will contain all the artefacts you create in the different exercises of this hands-on session.
 
 <!--
 > **Note:**  
@@ -46,7 +46,7 @@ Execrises 1.1 - 1.3 are essential for the exercise, the following exercises 1.4 
 
   -->
    
-   1. In ADT, again the **Project Explorer** right-click on the package **`ZLOCAL`**, and select **New** > **ABAP Package** from the context menu. 
+   1. In the **Project Explorer** of ADT, right-click on the  **`ZLOCAL`** package and, from the context menu, select **New** > **ABAP Package**. 
 
    ![package](images/220_create_package.png)
 
@@ -54,27 +54,28 @@ Execrises 1.1 - 1.3 are essential for the exercise, the following exercises 1.4 
    2. Maintain the required information (`###` is your group ID):
        - Name: **`Z_ONLINESHOP_###`**
        - Description: _**`Online Shop ###`**_
-       - Select the box **Add to favorites package**
-       
-      Click **Next >**.
+       - Select the **Add to favorites package** checkbox.
+       - 
+  3. Press **Next**.   
+    
 
    ![package](images/230_create_package.png).
 
-   3. Do not enter an Application Component and press **Next**
+   3. Do not enter an application component, and press **Next**.
 
    ![package](images/240_create_package.png).
 
-   4. Create a new transport request, maintain a description (e.g. _**Online Shop Package ###**_), and click **Finish**.
+   4. Select the **Create a new request** radio button, enter a description (e.g. _**Online Shop Package ###**_), and click **Finish**.
       
    ![package](images/250_create_package.png).
 
-   5. You should now see your new package in your **Project Explorer**.
+  You should now see your new package in your **Project Explorer**.
 
    ![package](images/270_create_package.png)
 
-   6. Check the language version of your package
+   6. Check the language version of your package.
 
-      As you can see your package has the superpackage `ZLOCAL`. This is a structure package that is part of the software component `ZLOCAL` which is configured for the use of **ABAP for Cloud Development** and the **Local Objects**. 
+      As you can see, your package has the superpackage `ZLOCAL`. This is a structure package that is part of the software component `ZLOCAL` which is configured for the use of **ABAP for Cloud Development** and the **Local Objects**. 
 
       ![package](images/280_create_package.png).
 
