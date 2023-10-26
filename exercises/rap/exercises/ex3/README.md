@@ -282,7 +282,7 @@ CLASS lcl_OnlineShop DEFINITION INHERITING FROM cl_abap_behavior_handler.
 
   ![define_determinations](images/310_define_determinations.png) 
 
-  4. Then a new tab is openend with the generated handler that looks like this:
+  4. Then a new tab is opened with the generated handler that looks like this:
 
    ![define_determinations](images/312_define_determinations.png) 
 
@@ -337,7 +337,7 @@ CLASS lcl_OnlineShop DEFINITION INHERITING FROM cl_abap_behavior_handler.
  
   </pre>
 
-  6. Replace the placeholder `###` with your group ID.
+  6. Replace the placeholder `###` with the 3-digit code in your ABAP username.
 
   The code reads all entries including the one that was just created. It looks at all the orders whether they already have an `OrderID`, it finds the order with the highest `OrderID`, assuming this is the newest. It adds 1 to the highest `OrderID` and assigns this new number to our new onlineshop record and modifies the database using EML ([Entity Manipulation Language](https://help.sap.com/docs/btp/sap-abap-restful-application-programming-model/entity-manipulation-language-eml))
  
