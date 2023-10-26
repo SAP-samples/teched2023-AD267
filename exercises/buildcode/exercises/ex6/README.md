@@ -64,6 +64,6 @@ Congratulations! You now have finished a working version of your application. In
 
 This will automatically create the Event Mesh Client and Queue for local testing. Refer to the details of the setup [here](../../../buildcode/exercises/ex6/appendix.md).
 
-5. Create data using S/4 preview app and repeat steps 5 to 9 from the above section to view the data created by live events.
+5. Create data using **[S/4 preview app](https://github.com/SAP-samples/teched2023-AD267/tree/main/exercises/rap/exercises/ex3#exercise-36-check-your-preview-application)** and repeat steps 5 to 9 from the above section to view the data created by live events.
 > Note: This data is temporarily persisted and will not be available if you rerun your application.
 
