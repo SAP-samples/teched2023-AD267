@@ -332,10 +332,6 @@ CLASS lcl_OnlineShop DEFINITION INHERITING FROM cl_abap_behavior_handler.
         ALL FIELDS
         WITH CORRESPONDING #( keys )
       RESULT OnlineOrders.
-    LOOP AT OnlineOrders INTO DATA(OnlineOrder) WHERE Product IS NOT INITIAL. " AND %IS_DRAFT = '00'.
-       MODIFY ENTITIES OF ZR_OnlineShop_XXX IN LOCAL MODE
-        ENTITY OnlineShop EXECUTE CreatePurchaseRequisition FROM CORRESPONDING #( keys ).
-    ENDLOOP.
 
   ENDMETHOD.
  
@@ -570,9 +566,9 @@ with the following code:
           ENDLOOP.
         ENDMETHOD.
    </pre>
-8. Save ![save icon](../../images/adt_save.png) and activate ![activate icon](../../images/adt_activate.png) the changes.
+9. Save ![save icon](../../images/adt_save.png) and activate ![activate icon](../../images/adt_activate.png) the changes.
    
-9. This will generate standard event "Purchase Requisition Created". You will consume this event later in SAP Build Code for further processing.**[Build Exercise 4: SAP Add and consume an event from S/4HANA On-Premise](../../../buildcode/exercises/ex4/README.md)**
+10. This will generate standard event "Purchase Requisition Created". You will consume this event later in SAP Build Code for further processing.**[Build Exercise 4: SAP Add and consume an event from S/4HANA On-Premise](../../../buildcode/exercises/ex4/README.md)**
 
 ## Exercise 3.5: Add unmanaged save
 
