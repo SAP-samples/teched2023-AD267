@@ -7,8 +7,12 @@ Now you will create service entities for Purchase Requisition and S4H Purchase R
 
 2. On the next screen, select ManagePurchaseRequisition-<Your-User-ID>.PurchaseRequisition and choose Ok to finish.
 ![](images/Service_002.png)
-3. Back in service editor, choose Add_Entity and select select S4H_Pur_Req.PurchaseReqn as type and choose Ok to finish.
+
+3. Back in the service editor, choose Add_Entity and select select S4H_Pur_Req.PurchaseReqn as type and choose Ok to finish.
 ![](images/Service_003.png)
+
+4. Your service.cds tab should now look like this
+![](images/ServiceCds.png) 
 
 # Add Sample Data
 Once the structure of your application is finished, you can add sample data to the application. You either can use the visual data editor or insert data using a CSV file. Here, we will use the Mock Data generator and then edit the data.
