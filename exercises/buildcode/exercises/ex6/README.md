@@ -72,7 +72,9 @@ This will automatically create the Event Mesh Client and Queue for local testing
 **BuildCode-Purchase Requisition**
 ![](images/RunApp_BuildCode.png)
 
-6. Once you create a order in RAP UI, you should be able to see the same Purchase Requisition on the SAP Build Code UI. Creation of an order in RAP triggers *Purchase Order Created* event in S/4HANA OP system, which is consumed in SAP Build Code CAP backend using event mesh. You can view the same Purchase Requisition on your UI application in SAP Build Code.
+6. Once you create an order in RAP UI, you should be able to see the same Purchase Requisition on the SAP Build Code UI. Creation of an order in RAP triggers a *Purchase Order Created* event in the S/4HANA OP system, which is sent to SAP Event Mesh. This event is then consumed in SAP Build Code CAP backend. You can view the same Purchase Requisition on your Fiori Elements UI application in SAP Build Code.
+
+> Note: It will take a few seconds for the new entry to be reflected in the SAP Build Code UI.
 
 > Note: This data is temporarily persisted and will not be available if you rerun your application.
 
