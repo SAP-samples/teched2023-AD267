@@ -31,7 +31,8 @@ Hint: Please use Google Chrome or Microsoft Edge to follow the exercises
 5. On the next step, choose Full Stack Application 
 ![](images/CreateFullStack.png)
 
-6. Add a Project Name, Namespace, Service Name and a Short Description. Please name the project *'ManagePurchaseRequisitionXXX'* and replace XXX with the 3-digit number as given in your user-id that you used for login. Do not change the recommended dev space name.
+6. Add a Project Name, Namespace, Service Name, and a Short Description. Please name the project *'ManagePurchaseRequisitionXXX'* and replace XXX with the 3-digit number as given in the user-id that you used for login. Do not change the recommended dev space name.
+> Note: Your dev space name may not match. That's ok and you can proceed.
 ![](images/ProjectName.png)
 
 7. It will take some time until your project is created. Once the project is created, you will see it listed in the Lobby. Click on the name of the project to open SAP Business Application Studio.
