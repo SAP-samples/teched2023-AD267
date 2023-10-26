@@ -1,10 +1,10 @@
 # Event Configuration #
 
 **S/4HANA On-Premise**
-To be able to receive events on SAP BTP, please follow the link below.
+- You can refer to the link below to setup Standard Business Events.
 [Managing Channel](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/810dfd34f2cc4f39aa8d946b5204fd9c/dbaac652c4c941eea383a2e7f954443d.html?locale=de-DEversion%3D1809.002)
 
-Setup used for this exercise is as shown:
+Configurations used in this exercise:
 - Goto *SPRO*
 ![](images/Channel_000.png)
 
@@ -12,7 +12,7 @@ Setup used for this exercise is as shown:
   [Create Channel](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/810dfd34f2cc4f39aa8d946b5204fd9c/bc6cffca0b894d17a171549ccb16e679.html?locale=de-DEversion%3D1809.002)
 ![](images/Channel_002.png)
 
-- Outbound Bindings. Here you specify which event you want to listen to. We have used "Purchase Requisition Created".
+- View Outbound Bindings. Here you specify which event you want to listen to. We have used "Purchase Requisition Created".
 ![](images/Channel_001.png)
 
 ** SAP Business Technology Platform Event Mesh **
