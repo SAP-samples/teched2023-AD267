@@ -369,6 +369,9 @@ Add it below the `public section.` line, so it looks like this:
   ENDCLASS.
 </pre>
 
+  The global class should now look like this  
+  ![define_determinations](images/400_0_define_determinations.png) 
+  
 2. Save ![save icon](../../images/adt_save.png) the changes.
 
 3. Add the following internal action to your behavior definition **ZR_ONLINESHOP_###** (in the **Project Explorer** under **Core Data Services** -> **Behavior Definitions**) just behind the line for the calculation of the new order id, that you inserted before.
