@@ -278,7 +278,7 @@ CLASS lcl_OnlineShop DEFINITION INHERITING FROM cl_abap_behavior_handler.
 
   2. Save ![save icon](../../images/adt_save.png) and activate ![activate icon](../../images/adt_activate.png) the changes.
 
-  3. Use the quick fix **Ctrl+1** (**Command+1** on Mac) to generate the appropriate methods in the behavior definition class.
+  3. Use the quick fix **Ctrl+1** (**Command+1** on Mac) while the cursor is on “CalculateOrderID” and select “Add method for determination calculateorderid of entity…” to generate the appropriate methods in the behavior definition class.
 
   ![define_determinations](images/310_define_determinations.png) 
 
@@ -520,7 +520,56 @@ with the following code:
 </pre>
 
 7. Replace the placeholder `###` with your group ID.
-
+8. Add the following code to the end of the method **CalculateOrderID** before the **ENDMETHOD** statement.
+   <pre lang="ABAP">
+             LOOP AT OnlineOrders INTO DATA(OnlineOrder) WHERE Product IS NOT INITIAL. " AND %IS_DRAFT = '00'.
+                   MODIFY ENTITIES OF ZR_OnlineShop_XXX IN LOCAL MODE
+                    ENTITY OnlineShop EXECUTE CreatePurchaseRequisition FROM CORRESPONDING #( keys ).
+              ENDLOOP.
+   </pre>
+  The method should look like this
+   <pre lang="ABAP">
+       METHOD CalculateOrderID.
+         "read transfered instances
+          READ ENTITIES OF ZR_OnlineShop_XXX IN LOCAL MODE
+            ENTITY OnlineShop
+              ALL FIELDS
+              WITH CORRESPONDING #( keys )
+            RESULT DATA(OnlineOrders).
+      
+          "ignore  entries with assigned order ID
+          DELETE OnlineOrders WHERE OrderID IS NOT INITIAL.
+          IF OnlineOrders IS NOT INITIAL.
+            "get max order ID from the relevant active and draft table entries
+            SELECT FROM ZOnlineShop_XXX FIELDS MAX( order_id ) INTO @DATA(max_order_id). "active table
+            SELECT FROM ZdOnlineShop_XXX FIELDS MAX( orderid ) INTO @DATA(max_order_id_draft). "draft table
+      
+            IF max_order_id_draft > max_order_id.
+              max_order_id = max_order_id_draft.
+            ENDIF.
+      
+            DATA(OverallStatus) = |{ sy-uname } - is placing order request|.
+            MODIFY ENTITIES OF ZR_OnlineShop_XXX IN LOCAL MODE
+              ENTITY OnlineShop
+                UPDATE FIELDS ( OrderID OverallStatus )
+                WITH VALUE #( FOR order IN OnlineOrders INDEX INTO i (
+                                 %tky          = order-%tky
+                                 OrderID       = max_order_id + i
+                                 OverallStatus = overallstatus
+                            ) )
+              FAILED DATA(failed).
+          ENDIF.
+             READ ENTITIES OF ZR_OnlineShop_XXX IN LOCAL MODE
+                  ENTITY OnlineShop
+                    ALL FIELDS
+                    WITH CORRESPONDING #( keys )
+                  RESULT OnlineOrders.
+          LOOP AT OnlineOrders INTO DATA(OnlineOrder) WHERE Product IS NOT INITIAL. " AND %IS_DRAFT = '00'.
+             MODIFY ENTITIES OF ZR_OnlineShop_XXX IN LOCAL MODE
+              ENTITY OnlineShop EXECUTE CreatePurchaseRequisition FROM CORRESPONDING #( keys ).
+          ENDLOOP.
+        ENDMETHOD.
+   </pre>
 8. Save ![save icon](../../images/adt_save.png) and activate ![activate icon](../../images/adt_activate.png) the changes.
    
 9. This will generate standard event "Purchase Requisition Created". You will consume this event later in SAP Build Code for further processing.**[Build Exercise 4: SAP Add and consume an event from S/4HANA On-Premise](../../../buildcode/exercises/ex4/README.md)**
