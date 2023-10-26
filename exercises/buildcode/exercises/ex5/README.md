@@ -43,7 +43,7 @@ After defining the foundation of your application in the previous chapter, we wi
 ![](images/HeaderForm_001.png)
 ![](images/HeaderForm_002.png)
 
-12. Next add Basic Columns.
+12. Next add Basic Fields.
 ![](images/HeaderForm_003.png)
 
 13.  Add the field 'Purchase Requisition' in *Header Sections*
