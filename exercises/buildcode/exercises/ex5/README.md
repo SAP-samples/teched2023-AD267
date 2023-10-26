@@ -44,7 +44,7 @@ After defining the foundation of your application in the previous chapter, we wi
 ![](images/HeaderForm_002.png)
 
 12. Next add Basic Columns.
-![](images/HeaderBasic.png)
+![](images/HeaderForm_003.png)
 
 13.  Add the field 'Purchase Requisition' in *Header Sections*
 ![](images/UI_010.png)
