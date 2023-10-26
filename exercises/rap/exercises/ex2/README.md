@@ -31,7 +31,7 @@ A OnlineShop entity defines general data, such as the product name or the quanti
          
    2. Search for **database table**, select it, and click **Next >**.
    
-   3. Maintain the required information (`###` is your group ID) and click **Next >**.
+   3. Maintain the required information (`###` is your group ID) and click **Next**.
       - Name: **`ZONLINESHOP_###`**  
       - Description: _**`Persistence for online shop`**_                  
 
