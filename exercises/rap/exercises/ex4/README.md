@@ -11,7 +11,7 @@ For this we need to add a couple of artefacts on top of the already existing one
 
 ![new_dd](images/100.png) 
 
-2. Maintain the required information (`###` is your group ID) and click **Next >**.
+2. Maintain the required information (`###` is the 3-digit code in your ABAP username) and click **Next >**.
       - Name: _**`ZAPI_ONLINESHOP_###`**_  
       - Description: _**`Onlineshop API`**_  
 
@@ -37,7 +37,7 @@ define root view entity ZAPI_ONLINESHOP_###
 }
 </pre>
 
-5. Replace the placeholder `###` with your group ID. 
+5. Replace the placeholder `###` with the 3-digit code in your ABAP username. 
 
 6. Save ![save icon](../../images/adt_save.png) and activate ![activate icon](../../images/adt_activate.png) the changes.
 
@@ -84,7 +84,7 @@ define behavior for ZAPI_ONLINESHOP_### alias onlineshop
 
 ![new_dd](images/150.png) 
 
-2. Maintain the required information (`###` is your group ID):
+2. Maintain the required information (`###` is the 3-digit code in your ABAP username):
       - Name: _**`Z_ONLINESHOP_###`**_
       - Description: _**`Service Definition Z_ONLINESHOP_###`**_
       - Source Type: _**`Definition`**_
