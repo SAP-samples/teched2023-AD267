@@ -20,21 +20,26 @@ Hint: Please use Google Chrome or Microsoft Edge to follow the exercises
 1. Open the SAP Build Lobby and login with the provided user-id and password.
 
 2. In the SAP Build Lobby choose the button Create to start
+
 ![](images/Build_001.png)
 
 3. A new window opens asking you what you would like to do. Select Build an Application.
+
 ![](images/Build_002.png)
 
 4. You are asked which type of application you would like to build. Select SAP Build Code.
+
 ![](images/CreateProject_BuildCode.png)
 
 5. On the next step, choose Full Stack Application 
+
 ![](images/CreateFullStack.png)
 
 6. Add a Project Name, Namespace, Service Name, and a Short Description. Please name the project *'ManagePurchaseRequisitionXXX'* and replace XXX with the 3-digit number as given in the user-id that you used for login. Do not change the recommended dev space name.
 > Note: Make sure you copy the project name without any spelling mistakes and only replace XXX with the 3-digit username. If the name is changed, you might run into issues in the remaining exercise.
 
 > Note: Your dev space name may not match. That's ok and you can proceed.
+
 ![](images/ProjectName.png)
 
 7. It will take some time until your project is created. Once the project is created, you will see it listed in the Lobby. Click on the name of the project to open SAP Business Application Studio.
