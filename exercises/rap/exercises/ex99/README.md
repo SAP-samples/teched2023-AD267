@@ -1,53 +1,54 @@
 # How to connect to an SAP S/4HANA on-premise or private cloud system 
 
-This document describes how to create an **ABAP Project** to connect to an SAP S/4HANA on-premise or private cloud system.  
+This document describes how to create an **ABAP project** to connect to an SAP S/4HANA on-premise or private cloud system.  
 
 
-1. Click on  **File > New > New ABAP Project**
+1. In Eclipse, click on  **File > New > ABAP Project**.
 
    ![New ABAP Project](images/100_create_a_new_abap_project.png)
 
-2. In the *System Connection* dialogue click on the link **new system connection**  
+2. If the *System Connection* dialog is displayed, click on the link **new system connection**. If not, continue to step 3.  
 
    ![System Connection](images/110_create_a_new_abap_project.png)
 
-3. In the *Connection Settings* dialogue choose the connection type **Custom Application Server**  
+3. In the *Connection Settings* dialog, from the connection type dropdown list, choose **Custom Application Server**.  
    
-   Then enter the following connection information (The IP address of the application server is provided by the instructors)
+   Then, enter the following connection information (The IP address of the application server is provided by the instructors)
    - System ID: S4H
    - Application Server: 54.157.108.98
    - Instance Number: 00
-   
-   and **deactivate** the check box **Activate Secure Network Communication (SNC)**
-   
-   Press Next.   
+  
+4. Make sure the **Activate Secure Network Communication (SNC)** checkbox is not selected.
+5. Click **Next**.
+    
 
    ![Connection Settings](images/120_create_a_new_abap_project.png)
 
-4. In the *Logon to System* dialogue enter the following data. You will be using the ABAP user given to you by the instructors
+6. In the *Logon to System* dialog, enter the following data. You will be using the ABAP user given to you by the instructors.
     
    - Client: 100
    - User: lowcode###
    - Password: Abcd###!$
    - Language: EN
 
-   Press Next
+7. Press **Next**.
 
    ![Logon to System](images/130_create_a_new_abap_project.png)
    
-5. In the *Project Name* screen leave the default value proposed by ADT.
+8. In the *Project Name* dialog, leave the default value proposed by ADT.
   
    ![Project Name](images/140_create_a_new_abap_project.png)
 
-6. Press **Finish**.   
+9. Press **Finish**.   
 
-7. Add `ZLOCAL` to your favorites packages.  
+10. Add `ZLOCAL` to your favorites packages.  
 
-   - Right-click on the folder **Favorite Packages** in your newly created ABAP project.   
+   - In the Project Explorer, expand your newly created project.
+   - Right-click on the folder **Favorite Packages**, and select **Add Package**.    
 
    ![add_to_favorites](images/99_100_add_zlocal_to_favorites.png)  
    
-   - Search for `ZLOCAL`. Select the entry and press **OK**.   
+   - Search for `ZLOCAL`. Select the entry, and press **OK**.   
    
    ![add_to_favorites](images/99_110_add_zlocal_to_favorites.png) 
    
