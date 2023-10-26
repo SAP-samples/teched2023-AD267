@@ -1,4 +1,4 @@
-[Home ](../../README.md)  
+![image](https://github.com/SAP-samples/teched2023-AD267/assets/33621897/8391b1cc-c85f-432b-b079-1f7fc6d54104)[Home ](../../README.md)  
 
 # Exercise 3: Adapt the data model
 
@@ -384,7 +384,7 @@ Add it below the `public section.` line, so it looks like this:
 
 4. Save ![save icon](../../images/adt_save.png) and activate the changes.
 
-5. Click on the icon on the left hand side of the new line and invoke the generation of the new method
+5. Click on the icon on the left hand side of the new line and invoke the generation of the new method by double-clicking on “Add method for action createpurchaserequisition of entity …”
 
   ![define_determinations](images/410_define_determinations.png) 
 
