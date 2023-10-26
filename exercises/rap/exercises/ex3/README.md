@@ -199,7 +199,12 @@ For fields that are read-only and that are not read from the value help we have 
   </pre>
 
   in order to make the Order ID a read-only field.
-
+   
+  And add the following after the ** field (readonly ) OrderUUID, **
+  <pre lang="ABAP">
+        field ( mandatory:create, readonly:update ) Product;
+   </pre>
+  
   ![adapt_bdef](images/220_adapt_bdef.png)  
  
   3. Save ![save icon](../../images/adt_save.png) and activate ![activate icon](../../images/adt_activate.png) the changes.
