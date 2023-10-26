@@ -122,6 +122,7 @@ annotate view ZC_ONLINESHOP_XXX with
     label: 'Product'
   } ]
   @Consumption.valueHelpDefinition: [{ entity : {name: 'zolshop_mat_vt', element: 'material_id' }}]
+  @EndUserText.label: 'Product'
   product;
 
   @UI.lineItem: [ {
@@ -619,7 +620,7 @@ with:
 
  1. Open the service binding `ZUI_ONLINESHOP_O4_###` (**Business Services** -> **Service Bindings**) to test your implementation by using the ADT Fiori preview. Alternatively, if you keep the browser window open with the Fiori preview, you can just refresh the browser and it will automatically reflect the new code.
 
- 2. On the list, press `Create` and then on the object page enter a new onlineshop entry using for example a product `D001` and a quantity `3` and then press the `Create` button in lower right corner.
+ 2. On the list, press `Create` and then on the object page enter a new onlineshop entry using for example a product `D001` in the create pop up, click continue and in the following object page enter value for the quantity as `3` and then press the `Create` button in lower right corner.
  ![define_determinations](images/313_0_define_determinations.png) 
  ![define_determinations](images/313_define_determinations.png) 
   
