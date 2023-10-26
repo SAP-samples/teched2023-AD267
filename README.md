@@ -59,7 +59,7 @@ In this hands-on workshop, we will implement an online shop for employees which 
   - [ABAP Exercise 4: Create a Web API for the Onlineshop](exercises/rap/exercises/ex4/README.md)
       
 - [Part 2 - SAP Build Code](exercises/buildcode/exercises/ex1/README.md)
-  - [Build Exercise 1: Create Project](exercises/buildcode/exercises/ex1/README.md)
+  - [Build Exercise 1: Create a Project in SAP Build Lobby](exercises/buildcode/exercises/ex1/README.md)
   - [Build Exercise 2: Create Data Model](exercises/buildcode/exercises/ex2/README.md)
   - [Build Exercise 3: SAP Create Service](exercises/buildcode/exercises/ex3/README.md)
   - [Build Exercise 4: Add and consume an event from S/4HANA On-Premise](exercises/buildcode/exercises/ex4/README.md)
