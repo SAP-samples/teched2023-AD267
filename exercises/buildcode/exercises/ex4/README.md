@@ -10,7 +10,7 @@ Now you will go to the **Service Center** and add an event to the project.
 
 ![](images/Event_002.png)
 
-3. Click on Add event button
+3. Click on "Add Events" button
 
 ![](images/Event_009.png)
 
@@ -35,7 +35,7 @@ Now you will go to the **Service Center** and add an event to the project.
 
 10. Double-cick on CQL_Insert to open the right-hand panel.
 
-11. In the Entity, choose ManagePurchaseRequisition_XXXService.PurchaseRequisition. In the Column Name, choose "purchaserequisition" column from the drop-down, and paste "message.data.PurchaseRequisition" in the Values column
+11. In the Entity, choose ManagePurchaseRequisition_XXXService.PurchaseRequisition. In the Column Name, choose "purchaserequisition" column from the drop-down, and paste "message.data.PurchaseRequisition" in the Values field.
 ![](images/Event_007.png)
 
 12. Open Code Editor -> Application Logic to view the code file.
