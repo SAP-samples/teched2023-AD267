@@ -21,7 +21,7 @@ Now you will go to the **Service Center** and add an event to the project.
 
 ![](images/Event_010.png)
 
-8. Add logic to insert data in PurchaseRequisition entity. Put description as "Create purchase requisition"
+8. Add logic to insert data in PurchaseRequisition entity. Put the description as "Create purchase requisition"
 ![](images/Event_005.png)
 
 9. Click on Business Logic and click on "+ Template" and choose "Function Call"
@@ -37,8 +37,8 @@ Now you will go to the **Service Center** and add an event to the project.
 
 13. Open Code Editor -? Application Logic to view the code file.
 ![](images/Event_008.png)
-replace the **await** statement code with:
+replace the **await** statement code with the line below. Make sure to replace XXX with the 3-digit number of your username:
 ```js
-await INSERT .into `ManagePurchaseRequisitionService.PurchaseRequisition` .entries({purchaserequisition:message.data.PurchaseRequisition});
+await INSERT .into `ManagePurchaseRequisitionXXXService.PurchaseRequisition` .entries({purchaserequisition:message.data.PurchaseRequisition});
 ```
 Continue to - **[Build Exercise 5: Create UI application](../../../buildcode/exercises/ex5/README.md)**
