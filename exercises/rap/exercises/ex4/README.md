@@ -1,7 +1,7 @@
 
-# Exercise 4: Create a Web API for the Onlineshop
+# Exercise 4 {OPTIONAL}: Create a Web API for the Onlineshop
 
-In this exercise we create an additional service. In the exercise before we created an Onlineshop service that we can use for a Fiori elements application which supports drafts (the ability to save UI entries in an unfinished or wrong state for the current user, in order to allow the user to correct the entry later. The entry will only become visible when the entry was finally corrected and saved.). These kind of services are not suitable to be called from other places than UIs, for example processes. As we later on want to create a process, we will now add a second service for web API usage. 
+In this OPTIONAL exercise we create an additional service. In the exercise before we created an Onlineshop service that we can use for a Fiori elements application which supports drafts (the ability to save UI entries in an unfinished or wrong state for the current user, in order to allow the user to correct the entry later. The entry will only become visible when the entry was finally corrected and saved.). These kind of services are not suitable to be called from other places than UIs, for example processes. As we later on want to create a process, we will now add a second service for web API usage. 
 
 For this we need to add a couple of artefacts on top of the already existing ones.
 
