@@ -1,4 +1,4 @@
-# Exercise 1: Create Application to consume OnlineShop Purchase Requisition event and trigger Purchase Order creation
+# Exercise 1: Create an Application to consume OnlineShop Purchase Requisition event and update the status of Purchase Requisition in Buidcode
 
 From this exercise on, we will switch to SAP's Business Technology Platform (BTP).
 
