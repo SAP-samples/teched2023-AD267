@@ -1,17 +1,18 @@
 
-# Exercise 4 {OPTIONAL}: Create a Web API for the Onlineshop
+# Exercise 4 (OPTIONAL): Create a Web API for the Onlineshop
 
-In this OPTIONAL exercise we create an additional service. In the exercise before we created an Onlineshop service that we can use for a Fiori elements application which supports drafts (the ability to save UI entries in an unfinished or wrong state for the current user, in order to allow the user to correct the entry later. The entry will only become visible when the entry was finally corrected and saved.). These kind of services are not suitable to be called from other places than UIs, for example processes. As we later on want to create a process, we will now add a second service for web API usage. 
+In this OPTIONAL exercise, we will create an additional service. In the previous exercise, we created an Onlineshop service that we can use for an SAP Fiori elements application which supports drafts. (Draft support is the ability to save UI entries in an unfinished or wrong state for the current user, in order to allow the user to correct the entry later. The entry will only become visible when the entry is finally corrected and saved.). These kind of services are not suitable to be called from places other than UIs, for example, from processes. As we later on want to create a process, we will now add a second service for web API usage. 
 
-For this we need to add a couple of artefacts on top of the already existing ones.
+For this, we need to add a couple of artefacts on top of the already existing ones.
 
 ## Exercise 4.1: Create a new Data Definition
 
-1. In your project open the context menu on **Core Data Services** -> **Data Definitions** and select **New Data Definition**.
+1. In the Project Explorer, go to **Core Data Services** -> **Data Definitions**, and right-click to open the context menu.
+2. Select **New Data Definition**.
 
 ![new_dd](images/100.png) 
 
-2. Maintain the required information (`###` is the 3-digit code in your ABAP username) and click **Next >**.
+2. Enter the required information (`###` is the 3-digit code in your ABAP username), and click **Next**.
       - Name: _**`ZAPI_ONLINESHOP_###`**_  
       - Description: _**`Onlineshop API`**_  
 
@@ -19,7 +20,7 @@ For this we need to add a couple of artefacts on top of the already existing one
 
 3.  Select your transport request and click **Finish** to create the data definition.
 
-4. Overwrite the contents of the generated data definition like this
+4. Overwrite the contents of the generated data definition with the following code:
 
 <pre lang="ABAP">
 @AccessControl.authorizationCheck: #CHECK
@@ -43,26 +44,28 @@ define root view entity ZAPI_ONLINESHOP_###
 
 ## Exercise 4.2: Create a new Behavior Definition
 
-1. In your project open the context menu on **Core Data Services** -> **Behavior Definitions** and select **New Behavior Definition**.
+1. In the Project Explorer, go to **Core Data Services** -> **Behavior Definitions**, and right-click to open the context menu.
+2. Select **New Behavior Definition**.
+
 
 ![new_dd](images/120.png) 
 
-2. Maintain the required information (`###` is your group ID):
+3. Enter the required information (`###` is your group ID):
       - Description: _**`Behavior for ZAPI_ONLINESHOP_###`**_
       - Root Entity: _**`ZAPI_ONLINESHOP_###`**_
       - Implementation Type: _**`Projection`**_
        
-      Click **Next >**.
+      Click **Next**.
 
 ![new_dd](images/130.png) 
 
-3. Select your transport request and click **Finish**.
+4. Select your transport request and click **Finish**.
 
-4. In the generated code get rid of the `use draft` line and all the lines that start with `use action`
+5. In the generated code, delete the `use draft` line and all the lines that start with `use action`.
 
 ![new_dd](images/140.png) 
 
-5. Add `alias onlineshop` as an alias, the code should look like this:
+6. Replace `//alias <alias_name>` with `alias onlineshop`. The code should look like this:
 
 <pre lang="ABAP">
 projection;
@@ -80,23 +83,24 @@ define behavior for ZAPI_ONLINESHOP_### alias onlineshop
 
 ## Exercise 4.3: Create a new Service Definition
 
-1. In your project open the context menu on **Business Services** -> **Service Definition** and select **New Service Definition**.
+1. In the Project Explorer, go to **Business Services** -> **Service Definitions**, and right-click to open the context menu.
+2. Select **New Service Definition**.
 
 ![new_dd](images/150.png) 
 
-2. Maintain the required information (`###` is the 3-digit code in your ABAP username):
+2. Enter the required information (`###` is the 3-digit code in your ABAP username):
       - Name: _**`Z_ONLINESHOP_###`**_
       - Description: _**`Service Definition Z_ONLINESHOP_###`**_
       - Source Type: _**`Definition`**_
       - Referenced Object: _**`ZAPI_ONLINESHOP_###`**_
        
-      Click **Next >**.
+      Click **Next**.
 
 ![new_dd](images/160.png) 
 
 3. Select your transport request and click **Finish**.
 
-5. Add the alias `as onlineshop`. The code should look like this:
+5. Add the alias `as onlineshop` to the line beginning `expose ZAPI_ONLINESHOP_778`. The code should look like this:
 
 <pre lang="ABAP">
 @EndUserText.label: 'Service Defition Z_ONLINESHOP_###'
@@ -109,17 +113,18 @@ define service Z_ONLINESHOP_### {
 
 ## Exercise 4.4: Create a new Service Binding
 
-1. In your project open the context menu on **Business Services** -> **Service Bindings** and select **New Service Bindings**.
+1. In the Project Explorer, go to **Business Services** -> **Service Bindings**, and right-click to open the context menu.
+2. Select **New Service Binding**.
 
 ![new_dd](images/170.png) 
 
-2. Maintain the required information (`###` is your group ID):
+2. Enter the required information (`###` is your group ID):
       - Name: _**`Z_ONLINESHOP_###`**_
       - Description: _**`Web API for Onlineshop`**_
       - Binding Type: _**`OData V4 - Web API`**_
       - Service Definition: _**`Z_ONLINESHOP_###`**_
        
-      Click **Next >**.
+      Click **Next**.
 
 ![new_dd](images/180.png) 
 
@@ -133,11 +138,12 @@ define service Z_ONLINESHOP_### {
 
 ## Exercise 4.5: Test the API in the browser
 
-1. Press on the link `Service URL` in the picture above. This will open the service in the browser.
+1. Press on the `Service URL` link shown in the picture above. This will open the service in the browser.
 
-2. In the browser, remove `?sap-client=100` from the URL and add `onlineshop` at the end of the URL, so it looks like this
+2. In the browser's address bar, replace `?sap-client=100` with `onlineshop` at the end of the URL.
+It should look like this:
 
-https://YY.YYYY.YYY.YY:44301/sap/opu/odata4/sap/z_onlineshop_###/srvd_a2x/sap/z_onlineshop_###/0001/onlineshop
+`https://YY.YYYY.YYY.YY:44301/sap/opu/odata4/sap/z_onlineshop_###/srvd_a2x/sap/z_onlineshop_###/0001/onlineshop`
 
 3. Press enter to load the page. The result should display the order you created in the previous exercise:
 
@@ -160,6 +166,6 @@ https://YY.YYYY.YYY.YY:44301/sap/opu/odata4/sap/z_onlineshop_###/srvd_a2x/sap/z_
 
 ## Summary   
 
-You have created a Web API next to the one that is suitable for a UI and you can now use this API in a SAP Build Process.
+You have created a Web API next to the one that is suitable for a UI. You can now use this API in an SAP Build Process.
 
 You can continue with the next exercise - **[Build Exercise 1: SAP Build Code](../../../buildcode/exercises/ex1/README.md)**
