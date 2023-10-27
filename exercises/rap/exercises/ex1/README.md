@@ -61,11 +61,11 @@ Execrises 1.1 - 1.3 are essential for the exercise, the following exercises 1.4 
 
    ![package](images/230_create_package.png).
 
-   3. Do not enter an application component, and press **Next**.
+   4. Do not enter an application component, and press **Next**.
 
    ![package](images/240_create_package.png).
 
-   4. Select the **Create a new request** radio button, enter a description (e.g. _**Online Shop Package ###**_), and click **Finish**.
+   5. Select the **Create a new request** radio button, enter a description (e.g. _**Online Shop Package ###**_), and click **Finish**.
       
    ![package](images/250_create_package.png).
 
