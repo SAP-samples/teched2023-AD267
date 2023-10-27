@@ -82,7 +82,7 @@ After defining the foundation of your application in the previous chapter, we wi
 - purchaseReqn/_PurchaseRequisitionItem/Plant
 - purchaseReqn/_PurchaseRequisitionItem/Supplier
 ![](images/UI_014.png)    
-![](images/UI_016.png)  
+![](images/UI_017.png)  
 
 
 Continue to - **[Build Exercise 6: Preview and test the app](../../../buildcode/exercises/ex6/README.md)**
