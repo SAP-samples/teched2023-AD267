@@ -82,7 +82,7 @@ The figure below illustrates the high-level architectural components of the clou
 | [ABAP Exercise 1: Create an ABAP Package](exercises/ex1/README.md) | 
 | [ABAP Exercise 2: Create the OnlineShop Application](exercises/ex2/README.md) | 
 | [ABAP Exercise 3: Adapt the data model](exercises/ex3/README.md) |
-| [ABAP Exercise 4: Create a Web API for the Onlineshop](exercises/ex4/README.md) | 
+| [ABAP Exercise 4{OPTIONAL}: Create a Web API for the Onlineshop](exercises/ex4/README.md) | 
 
 Continue to - [ABAP Exercise 0: How to connect with ADT to your SAP S/4HANA system](exercises/ex99/README.md)
 
