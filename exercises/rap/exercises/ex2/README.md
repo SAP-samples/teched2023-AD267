@@ -101,7 +101,8 @@ The generated business service will be transactional, draft-enabled, and enriche
       
    4. Select a transport request, and click **Finish**. The needed artefacts will be generated.
 
-   5. Go to the **Project Explorer**, select your package ![package](../../images/adt_package.png)**`Z_ONLINESHOP_###`**, refresh it by pressing **F5**, and check all generated ABAP repository objects 
+   5. Go to the **Project Explorer**, select your package ![package](../../images/adt_package.png)**`Z_ONLINESHOP_###`**, refresh it by pressing **F5**, and check all generated ABAP repository objects
+      
   ![package](../../images/adt_package_with_generated_RAP_artefacts.png)
 
  
