@@ -3,7 +3,7 @@
 Let's start the exercise and see whether everything is ready to go.
 Please make sure you have all the necessary prerequisites listed below. If not, please raise your voice during the meeting so that we can assist you early in the session. You will use Eclipse and ADT in the next exercise.
 
-Please note: Below listed prerequisite steps are local to the system/console you are working on and have already been setup accordingly to ease your experiece through the exercises. These have been provided here for reference, just in case you are interested in setting ABAP perspective in ADT or need help accessing Build lobby.
+Please note: Below listed prerequisite steps are local to the system/console you are working on and have already been setup accordingly to ease your experience through the exercises. These have been provided here for reference, just in case you are interested in setting ABAP perspective in ADT or need help accessing Build lobby.
 
 ## Prerequisites
 
