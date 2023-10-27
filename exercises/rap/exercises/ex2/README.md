@@ -4,14 +4,14 @@
 
 ## Introduction
 
-In this exercise, you will use the package `Z_ONLINESHOP_###` that you have created earlier. 
-Here you will create a database table where you will define all important fields for the OnlineShop application.  
+In this exercise, you will use the package `Z_ONLINESHOP_###` that you created earlier. 
+Here, you will create a database table where you will define all the important fields for the OnlineShop application.  
 
 This RAP business object (BO) represents an online shop, where you can order laptops or other articles you need as an employee. <!--After an article such as a laptop is ordered, a purchase requisition can be created by pressing a button in your application which will trigger an action in your RAP BO.-->  
 
-We will start our implementation by building a simple managed RAP business object and we will add the business logic to call the released RAP API in SAP S/4HANA afterwards.
+We will start our implementation by building a simple managed RAP business object, and we will add the business logic to call the released RAP API in SAP S/4HANA afterwards.
 
-You will use an ADT wizard to generate all the needed development RAP artefacts of your UI service. This includes the data model, projection view, service definition and service binding. Afterwards, you will check your _OnlineShop_ application with the SAP Fiori elements preview. 
+You will use an ADT wizard to generate all the needed development RAP artefacts of your UI service. This includes the data model, projection view, service definition, and service binding. Afterwards, you will check your _OnlineShop_ application with the SAP Fiori elements preview. 
 
 > **Reminder:**   
 > Don't forget to replace all occurrences of the placeholder **`###`** with the 3-digit code in your ABAP username in the exercise steps below.  
@@ -20,18 +20,14 @@ You will use an ADT wizard to generate all the needed development RAP artefacts 
 
 ## Exercise 2.1: Create a database table
 
-Create a database table![table](../../images/adt_tabl.png) to store the _OnlineShop_ data.   
-An OnlineShop entity defines general data, such as the product name or the quantity that is ordered. Once the order is checked out the number of the purchase requisition that will be created by using our released API will be stored as well.   
-
-> Hint: 
-> The tasks are also described in the following tutorial (step 2). Just replace the names with those that are mentioned in this how to guide.  
-> https://developers.sap.com/tutorials/abap-environment-rap100-generate-ui-service.html
+Create a database table ![table](../../images/adt_tabl.png) to store the _OnlineShop_ data.   
+An OnlineShop entity defines general data, such as the product name or the quantity that is ordered. Once the order is checked out, the number of the purchase requisition that will be created using our released API will be stored as well.   
 
    1. Right-click on your ABAP package **`Z_ONLINESHOP_###`** and select **New** > **Other ABAP Repository Object** from the context menu.
          
-   2. Search for **database table**, select it, and click **Next >**.
+   2. Search for **database table**, select it, and click **Next**.
    
-   3. Maintain the required information (`###` is your group ID) and click **Next**.
+   3. Maintain the required information (`###` is your group ID), and then click **Next**.
       - Name: **`ZONLINESHOP_###`**  
       - Description: _**`Persistence for online shop`**_                  
 
@@ -69,16 +65,11 @@ define table zonlineshop_XXX {
 ## Exercise 2.2: Generate the transactional UI service
 
 Create your OData V4 based UI service with the built-in RAP generator.   
-The generated business service will be transactional, draft-enabled, and enriched with UI semantics for the generation of the Fiori Elements app.
+The generated business service will be transactional, draft-enabled, and enriched with UI semantics for the generation of the SAP Fiori elements app.
 
-> Hint: 
-> The tasks are also described in the following tutorial (step 2). Just replace the names with those that are mentioned in this how-to guide.  
-> https://developers.sap.com/tutorials/abap-environment-rap100-generate-ui-service.html
-
-
-   1. In the **Project Explorer** (**Dictionary**) right-click your database table ![table](../../images/adt_tabl.png)**`ZONLINESHOP_###`** and select **Generate ABAP Repository Objects** from the context menu.        
+   1. In the **Project Explorer**, right-click your database table ![table](../../images/adt_tabl.png)**`ZONLINESHOP_###`**, and select **Generate ABAP Repository Objects** from the context menu.        
    
-   2. Maintain the required information  (`###` is your group ID) and click **Next >**:
+   2. Maintain the required information  (`###` is your group ID) and click **Next**:
         - Generator: **`ABAP RESTful Application Programming Model: UI Service`**
         
    3. Maintain the required information on the **Configure Generator** dialog to provide the name of your data model and generate it.         
@@ -86,7 +77,7 @@ The generated business service will be transactional, draft-enabled, and enriche
       For that, navigate through the wizard tree (_Business Objects_, _Data Model_, etc...), maintain the artefact names provided in the table below, 
       and press **Next**.
  
-      Verify the maintained entries and press **Next >** to confirm. 
+      Verify the maintained entries, and press **Next** to confirm. 
 
       > ℹ **Info about Naming Conventions**     
       > The main aspects of the naming conventions of SAP S/4HANA's Virtual Data Model (VDM) are used in this exercise.  
@@ -114,20 +105,20 @@ The generated business service will be transactional, draft-enabled, and enriche
   ![package](../../images/adt_package_with_generated_RAP_artefacts.png)
 
  
-## Exercise 2.3: Preview the OnlineShop App using Fiori elements
+## Exercise 2.3: Preview the OnlineShop App using SAP Fiori elements
 
 
-In this exercise you will publish the local service endpoint of your service binding ![service binding](../../images/adt_srvb.png) and start the _Fiori elements App Preview_.
+In this exercise, you will publish the local service endpoint of your service binding ![service binding](../../images/adt_srvb.png) and start the _Fiori elements App Preview_.
 
-   1. Open your service binding ![service binding](../../images/adt_srvb.png)**`ZUI_ONLINESHOP_O4_###`** and click **Publish**.
+   1. Open your service binding ![service binding](../../images/adt_srvb.png)**`ZUI_ONLINESHOP_O4_###`**, and press **Publish**.
 
    ![Publish](images/105_publish_service_binding_on_prem.png)
    
-   2. Double-click on the entity **`onlineshop`** in the **Entity Set and Association** section to open the _Fiori elements App Preview_.   
+   2. Double-click on the **`onlineshop`** entity in the **Entity Set and Association** section to open the _Fiori elements App Preview_.   
 
    ![Preview](images/107_publish_service_binding_on_prem.png)
    
-   3. If prompted, sign in with the user and password provided by the instructors. You should see a Fiori elements application like this
+   3. If prompted, sign in with the user and password provided by the instructors. You should see an SAP Fiori elements application like this:
 
    ![Fiori elements app](images/109_publish_service_binding_on_prem.png)
 
