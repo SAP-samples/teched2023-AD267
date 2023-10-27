@@ -34,23 +34,23 @@ You also need a user on an SAP S/4HANA Cloud ABAP Environment system or on an SA
 
 
 **ABAP Cloud**  
-… is the ABAP development model to build cloud-ready business apps, services, and extensions  
-… comes with SAP BTP and SAP S/4HANA  
-… works with public or private cloud, and even on-premise  
+… is the ABAP development model to build cloud-ready business apps, services, and extensions.  
+… comes with SAP BTP and SAP S/4HANA. 
+… works with public or private cloud, and even on-premise.  
 
 This part of the hands-on workshop will guide you to build developer extensions using *ABAP Cloud* in an SAP S/4HANA system using RAP facades. 
 
 A RAP facade is a *released* business object interface built with the ABAP RESTful Application Programming Model (RAP).
 
-You will create your own transactional Fiori Elements app with the ABAP RESTful Application Programming Model (RAP) and use released RAP facades to enhance the existing functionality. 
+You will create your own transactional SAP Fiori elements app with the ABAP RESTful Application Programming Model (RAP) and use released RAP facades to enhance the existing functionality. 
 
 ### Business Scenario 
 
 In this part of the hands-on workshop, the scenario we will implement will be an online shop for employees which will allow for the creation of *Purchase Requisitions* by using a released RAP facade from Procurements.   
  
- - An existing customer/partner wants to create a new business application that will allow employees of a company to order certain articles such as laptops for quick delivery using this shopping app. This can be realized with the ABAP RESTful Application Programming Model (RAP). 
+ - An existing customer/partner wants to create a new business application that will allow employees of a company to order certain articles, such as laptops, for quick delivery using this shopping app. This can be realized with the ABAP RESTful Application Programming Model (RAP). 
  
- - You’ll build the application starting from a database table using an ADT wizard that generates a starter project which contains all the needed development RAP artefacts that have to be implemented. The generated business service will be transactional, draft-enabled, and enriched with UI semantics for the generation of the Fiori elements app.
+ - You’ll build the application starting from a database table using an ADT wizard that generates a starter project which contains all the needed development RAP artefacts that have to be implemented. The generated business service will be transactional, draft-enabled, and enriched with UI semantics for the generation of the SAP Fiori elements app.
 
 <!--
  - Now, the customer/partner wishes to enhance the existing online shop application. After an order is placed, it should be possible to initiate a purchase requisition for this order in the SAP S/4HANA system. Using the developer extensibility custom code can be added to the existing business logic of the online shop BO to fulfill this requirement and by calling the released RAP facade **I_PurchaseRequisitionTP** locally.
@@ -67,7 +67,7 @@ Your application will finally look like this:
 ### Architecture Overview
 
 
-The figure below illustrates the high-level architecture components of the cloud extensibility model used in SAP S/4HANA public Cloud, SAP S/4HANA private cloud and SAP S/4HANA on-premise systems.
+The figure below illustrates the high-level architectural components of the cloud extensibility model used in SAP S/4HANA Cloud, public edition, SAP S/4HANA Cloud, private edition, and SAP S/4HANA on-premise systems.
  
  ![architecture](images/100_SAP_S4_HANA_Extensibility_Patterns.png)
  
