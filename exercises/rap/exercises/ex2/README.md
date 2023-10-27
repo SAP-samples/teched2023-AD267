@@ -69,21 +69,21 @@ The generated business service will be transactional, draft-enabled, and enriche
 
    1. In the **Project Explorer**, right-click your database table ![table](../../images/adt_tabl.png)**`ZONLINESHOP_###`**, and select **Generate ABAP Repository Objects** from the context menu.        
    
-   2. Maintain the required information  (`###` is your group ID) and click **Next**:
-        - Generator: **`ABAP RESTful Application Programming Model: UI Service`**
+   2. From the **Generator** dropdown list, select **`ABAP RESTful Application Programming Model: UI Service`**, and press **Next**.
         
-   3. Maintain the required information on the **Configure Generator** dialog to provide the name of your data model and generate it.         
+   3. In the **Configure Generator** dialog, maintain the required information to provide the name of your data model and generate it.         
 
-      For that, navigate through the wizard tree (_Business Objects_, _Data Model_, etc...), maintain the artefact names provided in the table below, 
-      and press **Next**.
+      For that, navigate through the wizard tree (_Business Objects_, _Data Model_, etc...) and maintain the artefact names provided in the table below.
  
-      Verify the maintained entries, and press **Next** to confirm. 
-
+      
       > ℹ **Info about Naming Conventions**     
       > The main aspects of the naming conventions of SAP S/4HANA's Virtual Data Model (VDM) are used in this exercise.  
-      > More information on VDM can be found on the SAP Help portal: **[Here](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/8a8cee943ef944fe8936f4cc60ba9bc1.html)**.
+      > See [Naming Conventions in the Virtual Data Model](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/8a8cee943ef944fe8936f4cc60ba9bc1.html) for more information.
  
-  
+      > **Reminder:**   
+      > Don't forget to replace all occurrences of the placeholder **`###`** with the 3-digit code in your ABAP username in the exercise steps below.  
+      > You can use the ADT function **Replace All** (**Ctrl+F**) for the purpose.
+      
       
       | **RAP Layer**          |  **Artefacts**           | **Artefact Names**                                       |     
       |:---------------------- |:------------------------ |:-------------------------------------------------------- |
@@ -98,23 +98,27 @@ The generated business service will be transactional, draft-enabled, and enriche
       |                        |  **Service Binding**     |  Name:         **`ZUI_ONLINESHOP_O4_###`**            |
       |                        |                          |  Binding Type: **`OData V4 - UI`**                       |
                        
+   
+   4. Verify the maintained entries, and press **Next** to confirm.
       
-   4. Select a transport request, and click **Finish**. The needed artefacts will be generated.
+   6. Press **Next** again to move to the Transport Request step.
+  
+   7. Select a transport request, and press **Finish**. The needed artefacts will be generated.
 
-   5. Go to the **Project Explorer**, select your package ![package](../../images/adt_package.png)**`Z_ONLINESHOP_###`**, refresh it by pressing **F5**, and check all generated ABAP repository objects 
+   8. Go to the **Project Explorer**, select your package ![package](../../images/adt_package.png)**`Z_ONLINESHOP_###`**, refresh it by pressing **F5**, and check all generated ABAP repository objects 
   ![package](../../images/adt_package_with_generated_RAP_artefacts.png)
 
  
 ## Exercise 2.3: Preview the OnlineShop App using SAP Fiori elements
 
 
-In this exercise, you will publish the local service endpoint of your service binding ![service binding](../../images/adt_srvb.png) and start the _Fiori elements App Preview_.
+In this exercise, you will publish the local service endpoint of your service binding ![service binding](../../images/adt_srvb.png), and start the _SAP Fiori elements App Preview_.
 
    1. Open your service binding ![service binding](../../images/adt_srvb.png)**`ZUI_ONLINESHOP_O4_###`**, and press **Publish**.
 
    ![Publish](images/105_publish_service_binding_on_prem.png)
    
-   2. Double-click on the **`onlineshop`** entity in the **Entity Set and Association** section to open the _Fiori elements App Preview_.   
+   2. Double-click on the **`onlineshop`** entity in the **Entity Set and Association** section to open the _SAP Fiori elements App Preview_.   
 
    ![Preview](images/107_publish_service_binding_on_prem.png)
    
@@ -189,9 +193,9 @@ Now that you've...
 - created an ABAP package,
 - created a database table,
 - created a transactional UI service,
-- published a local service point, and started the _Fiori elements App Preview_ in ADT.
+- published a local service point, and started the _Fiori elements App Preview_ in ADT,
 
-You can continue with the next exercise - **[Exercise 3: Adapt the data model](../ex3/README.md)**.
+you can continue with the next exercise - **[Exercise 3: Adapt the data model](../ex3/README.md)**.
 
 
 ---
