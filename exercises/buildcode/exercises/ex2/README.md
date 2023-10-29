@@ -1,109 +1,126 @@
-# Exercise 2: Create data model and external data model 
+# Exercise 2: Create a data model and and external data model 
 
-Now you can start the development of your application. First you will model your application and define the database table and the relationship between the entities.
+Now you can start developing your application. First, you will model your application and define the database table and the relationship between the entities.
 
-1. Your application is opened on the Storyboard. This is the landing page that you can use to view your whole CAP application and UI in a semantic view. We will use the graphical modelers of SAP Business Application Studio to complete this part of the hands-on workshop. 
+Your application opens in the Storyboard. This is the landing page that provides a semantic view of your entire CAP application and UI. We will use the graphical modelers of SAP Business Application Studio to complete this part of the hands-on workshop. 
 
-*NOTE - everything in SAP Business Application Studio is auto-saved.*
+>NOTE: Everything in SAP Business Application Studio is auto-saved.
  
- ![](images/Storyboard.png)
+   ![](images/Storyboard.png)
   
-2. We will create a new CAP Data Model called 'PurchaseRequisition' to hold the data coming from the RAP interface. To create a new Data Model, look for the tile Data Models and choose the + icon to add a new entity.
+We will create a new CAP Data Model called 'PurchaseRequisition' to hold the data coming from the RAP interface. 
+
+**To create a new Data Model:**
+
+1. In the **Data Models** tile, click the **+** icon. A new entity is created for you.
    
-![](images/DataModel_000.png)
+   ![](images/DataModel_000.png)
 
-3. A new entity is created for you. Click on the tile and choose Show Details to edit the entity.
+2.  Click on the entity's title, and change the entity name to `PurchaseRequisition`. 
+3.  Click on the entity's tile, and select **Show Details** to edit the entity.
 
-![](images/DataModel_000_2.png)   
-![](images/DataModel_000_1.png)
+   ![](images/DataModel_000_1.png)
 
+4. In the **Properties** tab of the editor, click the trash can to delete the **ID** row.
+5. Click the **+** (Add property) icon to add the **purchaserequisition** property:
 
-4. Change the Entity Name to PurchaseRequisition. Remove the property ID and choose the + icon in the table to add the following properties:
+    | Parameter | Value |
+    | :---------- | :------ |
+    | Name | **purchaserequisition** |
+    | Type | **String** (default) |
+    | Length | 10 |
+    | Key | checked |
+    | Null | **No**  |
 
-    | Step | Parameter | Value |
-    |:-----|:----------|:------|
-    | A | Name | **purchaserequisition** |
-    | B | Type | **String** (default) |
-    | C | Length | 10 |
-    | D | Default | Leave empty (default) |
-    | E | Key | checked |
-    | F | Null | **No**  |
+6. Click the **+** (Add property) icon again to add the **status** property:
 
-    | Step | Parameter | Value |
-    |:-----|:----------|:------|
-    | A | Name | **status** |
-    | B | Type | **String** (default) |
-    | C | Length | Leave default value |
-    | D | Default | Leave default value |
-    | E | Key | Leave unchecked (default) |
-    | F | Null | **Yes** (default) |
+    | Parameter | Value |
+    |:----------|:------|
+    | Name | **status** |
+    | Type | **String** (default) |
+    | Length | Leave default value |
+    | Key | Leave unchecked (default) |
+    | Null | **Yes** (default) |
+
+7. Click the **+** (Add property) icon again to add the **comments** property:
+
+    | Parameter | Value |
+    |:----------|:------|
+    | Name | **comments** |
+    | Type | **String** (default) |
+    | Length | Leave default value |
+    | Key | Leave unchecked (default) |
+    | Null | **Yes** (default) |
+
    
-    | Step | Parameter | Value |
-    |:-----|:----------|:------|
-    | A | Name | **comments** |
-    | B | Type | **String** (default) |
-    | C | Length | Leave default value |
-    | D | Default | Leave default value |
-    | E | Key | Leave unchecked (default) |
-    | F | Null | **Yes** (default) |
-![](images/DataModel_001.png)
+   ![](images/DataModel_001.png)
 
-5. Check that the entity is updated with the fields. Close the right-hand panel.
+8. Check that the entity is updated with the fields, and close the right-hand panel.
 
-6. Now, you can see an entity in the Data Model Editor.
+   You can see the entity in the Project Explorer.
 
-![](images/DataModel_011.png)
+   ![](images/DataModel_011.png)
 
-7. In the next step you will add an external API to the project. Go back to the Storyboard tab and click on the "+" under External Resources. This will take you to the **Service Center**. 
-![](images/ExternalRes.png)
+**To create a new external API to the project:**
 
-Now, expand node **SAP System** -> **lcapteched** -> select *S4H_Pur_Req*. Click on the blue button on the right-hand side view **Add External Data Model**   
-![](images/External_Data_Model_001.png)
+1. Go back to the Storyboard tab and click on the "+" in the **External Resources** tile. The **Service Center** view opens to the left.
 
-You will now see that the external API is added to the External Resources section of the Storyboard.
-![](images/External_Data_Model_002.png)
+   ![](images/ExternalRes.png)
 
-8. Next you will describe the interconnection between PurchaseRequisition and the External data model by defining a relationship, so each PurchaseRequisition on BTP has a S/4HANA Purchase Requisition associated with it.
+3. Expand **SAP System** -> **lcapteched**, and select *S4H_Pur_Req*.
+4. Click **Add External Data Model**.
    
-You should be on the Storyboard. If not, go to the Storyboard tab. Click on 'PurchaseRequisiton' data model under the DataModels tab and click on 'Open in Graphical Modeler'.
+   ![](images/External_Data_Model_001.png)
 
-![](images/OpenCDSModeler.png)  
+   The external API is added to the **External Resources** tile in the Storyboard.
 
-9. You should now be on a tab called "schema.cds". Click on the header of the table 'PurchaseRequisiton'. Choose Add Relationship Icon in the menu appearing on the right. You will get an arrow. Drop it anywhere on the canvas.
+   ![](images/External_Data_Model_002.png)
+
+Next, you will describe the interconnection between **PurchaseRequisition** and the external data model by defining a relationship, so each PurchaseRequisition on STP BTP will have an SAP S/4HANA Purchase Requisition associated to it.
    
-![](images/Association_000.png)
+1. In the Storyboard, click the 'PurchaseRequisiton' data model under the **Data Models** tile, and click 'Open in Graphical Modeler'.
 
-10. Once you drop the arrow anywhere on the canvas, a pop-up will appear. In the pop-up screen enter all the required details:
+   ![](images/OpenCDSModeler.png)  
 
-- Select Type: Association
-- Select Direction: Unidirectional
-- Key property: No
-- Select Multiplicity: To-One
-- Target Entity: S4H_Pur_Req.PurchaseReqn
-  
-![](images/Association_001.png)
+   You should now be on a tab called `schema.cds`. 
 
-![](images/Association_002.png)
+2. Click on the header of the 'PurchaseRequisiton' entity, and click the **Add Relationship** icon. You will get an arrow. 
+   
+   ![](images/Association_000.png)
 
-10. Choose the Create Button to save. You can now see the relationship between the external API and the PurchaseRequisition entity created by you.
+3. Drop the arrow anywhere on the canvas. The **New Relationship** dialog appears.
+4. Enter all the required details:
 
-![](images/Association_003.png)
+   - **Type**: Association
+   - **Direction**: Unidirectional
+   - **Key Property**: No
+   - **Multiplicity**: To-One
+   - **Target Entity**: S4H_Pur_Req.PurchaseReqn
 
-11. Now, go to the explorer. Click on the Hamburger icon -> View -> Explorer to open the Explorer tab.  
-![](images/FindExplorer.png)
+   ![](images/Association_002.png)
 
-![](images/Explorer_001.png)
+5. Click **Create**. You can now see the relationship between the external API and the PurchaseRequisition entity created by you.
 
-![](images/Explorer_002.png)
+   ![](images/Association_003.png)
 
-12. With SAP Business Application Studio, you are not restricted to using just the graphical modelers. Each modeler generates code files which you can open via the Explorer tab and edit. Open file *schema.cds* and replace the "Association" line with the following code:
+6. Click on the hamburger icon, and select **View** -> **Explorer** to open the Explorer view.  
+
+   ![](images/FindExplorer.png)
+
+   With SAP Business Application Studio, you are not restricted to using just the graphical modelers. Each modeler generates code files which you can open from the **Explorer** view and edit.
+
+1. Open the `schema.cds` file.
+   
 ![](images/Schema_001.png)
 
+3. Replace the "Association" line with the following code:
+   
 ```js
 purchaseReqn : Association to one S4H_Pur_Req.PurchaseReqn on purchaseReqn.PurchaseRequisition = purchaserequisition;
 ```
 
-![](images/Schema_002.png)
+
+   ![](images/Schema_002.png)
 
 This is the condition for association with S/4HANA API. The relationship between CAP model and S/4HANA model is established.
 
