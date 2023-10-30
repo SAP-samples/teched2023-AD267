@@ -1,50 +1,71 @@
-# Exercise 4: Add and consume an event from S/4HANA On-Premise system
-Now you will go to the **Service Center** and add an event to the project.
+# Exercise 4: Add and consume an event from the S/4HANA On-Premise system
 
-1. Go to the **Service Center** on the left panel.
+We will now add an event to the project in the **Service Center**.
 
-![](images/Event_000.png)
-![](images/Event_001.png)
+1. From the activity bar, click the Service Center icon.
+2. In the **Service Center** view, select **SAP Business Accelerator Hub -> SAP S/4HANA -> S4HANABusinessEvents**.
 
-2. Open node **SAP Business Accelerator Hub -> SAP S/4HANA -> S4HANABusinessEvents**, select the magnifier icon and search for "Purchase Requisition"
+   ![](images/Event_001.png)
 
-![](images/Event_002.png)
+2. Click the magnifier icon next to **S4HANABusinessEvents**, and search for "Purchase Requisition".
 
-3. Click on "Add Events" button
+   ![](images/Event_002.png)
 
-![](images/Event_009.png)
+3. Click "Add Events".
 
-4. Event is added to the project and is available under "External Resources".
-![](images/Event_003.png)
+   ![](images/Event_009.png)
 
-5. Next we will consume this event.
-![](images/Event_004.png)
+   The event is added to the project, and is available under the "External Resources" tile.
+   
+   ![](images/Event_003.png)
 
-6. This will open the 'Application Logic Editor'. Choose the "External Service Event" as 'Created.v1 and the name as "CreatePR" and click on Add. This will allow you to add custom logic to get the data from the API based on the event. 
+5. Click on the event, and select **Consume Event**.
+   
+   ![](images/Event_004.png)
 
-![](images/Event_010.png)
+7. In the 'Application Logic Editor' dialog:<br>
+   * Select the **External Service Event** radio button.
+   * From the **External Service Event** dropdown list, select `Created.v1`.
+   * In the **Name** field, enter `CreatePR`.
+   * Click **Add**.
+     
+   This will allow you to add custom logic to get the data from the API based on the event. 
 
-7. Add logic to insert data in PurchaseRequisition entity. Put the description as "Create purchase requisition"
-![](images/Event_005.png)
+   ![](images/Event_010.png)
 
-8. Click on Business Logic and click on "+ Template" and choose "Function Call"
-![](images/Event_006.png)
+7. Add logic to insert data in the **PurchaseRequisition** entity. In the Description field, enter `Create purchase requisition`.
+   
+   ![](images/Event_005.png)
 
-9. Click on Configure Function and choose CQL_Insert().
-![](images/Cqlinsert.png)
+9. Select the **Business Logic** tab.
+10. Click on **+ Template**, and select **Function Call**.
+    
+   ![](images/Event_006.png)
 
-10. Double-cick on CQL_Insert to open the right-hand panel.
+11. Click on **Configure Function**, and choose **CQL_Insert**.
+    
+   ![](images/Cqlinsert.png)
 
-11. In the Entity, choose ManagePurchaseRequisition_XXXService.PurchaseRequisition. In the Column Name, choose "purchaserequisition" column from the drop-down, and paste "message.data.PurchaseRequisition" in the Values field.
-![](images/Event_007.png)
+13. Double-cick on **CQL_Insert()** to open the right-hand panel.
 
-12. Open Code Editor -> Application Logic to view the code file.
-![](images/Event_008.png)
-replace the **await** statement code with the line below. Make sure to replace XXX with the 3-digit number of your username:
-```js
-await INSERT .into `ManagePurchaseRequisitionXXXService.PurchaseRequisition` .entries({purchaserequisition:message.data.PurchaseRequisition});
-```
-The code should look like this
-![](images/EventCode.png)
+    * From the **Entity Name** dropdown list, choose `ManagePurchaseRequisition_XXXService.PurchaseRequisition`.
+    * From the **Column Name** dropdown list, select the **purchaserequisition** checkbox.
+    * In the **Values** field, enter `message.data.PurchaseRequisition`.
 
-Continue to - **[Build Exercise 5: Create UI application](../../../buildcode/exercises/ex5/README.md)**
+   ![](images/Event_007.png)
+
+14. Click **Open Code Editor**, and select **Application Logic** to view the code file.
+
+   ![](images/Event_008.png)
+   
+15. Replace the **await** statement code with the line below. Make sure to replace XXX with the 3-digit number of your username.
+    
+   ```js
+   await INSERT .into `ManagePurchaseRequisitionXXXService.PurchaseRequisition` .entries({purchaserequisition:message.data.PurchaseRequisition});
+   ```
+   
+   The code should look like this:
+   
+   ![](images/EventCode.png)
+
+Continue to **[Build Exercise 5: Create UI application](../../../buildcode/exercises/ex5/README.md)**
