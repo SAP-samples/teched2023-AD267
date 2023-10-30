@@ -213,12 +213,13 @@ For fields that are read-only and that are not read from the value help we have 
  
   3. Save ![save icon](../../images/adt_save.png) and activate ![activate icon](../../images/adt_activate.png) the changes.
 
+<!--
   4. In the **Project Explorer** under `Business Services`->`Service Bindings`->`ZUI_ONLINESHOP_O4_###` check the UI using the Fiori Elements preview. 
 
   On the list, press **Create** and you should see a form like this, where **Order ID**, **Purchase Requisition** and **Overall Status** are text not input fields:
 
   ![adapt_bdef](images/230_adapt_bdef.png)  
- 
+-->
 <!--
 ## Exercise 3.4: Define constants for lhc_onlineshop
 
