@@ -190,7 +190,7 @@ For fields that are read-only and that are not read from the value help we have 
    OverallStatus,
   </pre>
 
- before
+ after
 
   <pre lang="ABAP">
   field ( readonly ) OrderUUID,
