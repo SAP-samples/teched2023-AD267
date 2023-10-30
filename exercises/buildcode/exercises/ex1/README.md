@@ -38,7 +38,7 @@ Hint: Please use Google Chrome or Microsoft Edge to follow the exercises
 6. Add a Project Name, Namespace, Service Name, and a Short Description. Please name the project *'ManagePurchaseRequisitionXXX'* and replace XXX with the 3-digit number as given in the user-id that you used for login. Do not change the recommended dev space name.
 > Note: Make sure you copy the project name without any spelling mistakes and only replace XXX with the 3-digit username. If the name is changed, you might run into issues in the remaining exercise.
 
-> Note: Your dev space name may not match. That's ok and you can proceed.
+> Note: The dev space recommended for you, may be a different from the one in the example. That's OK,  you can proceed.
 
 ![](images/ProjectName.png)
 
