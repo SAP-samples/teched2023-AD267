@@ -7,7 +7,7 @@ In this exercise, we will consume the event created in the **OnlineShop** app in
 - Add an external API(S/4HANA OP) to read the Purchase Requisition data in SAP BTP.
 
 To create such a scenario, we need to do the following:
-1. [Create a project in the SAP Build lobby](exercises/buildcode/exercises/ex1/README.md)
+1. Create a project in the SAP Build lobby
 2. [Create a data model for purchase requisition for local persistence and add an external API association ](../../../buildcode/exercises/ex2/README.md)
 3. [Create a service ](../../../buildcode/exercises/ex3/README.md)[add and consume an event from S/4HANA On-Premise](../../../buildcode/exercises/ex4/README.md)
 4. [Add and consume an event from SAP S/4HANA On-Premise](../../../buildcode/exercises/ex4/README.md)
