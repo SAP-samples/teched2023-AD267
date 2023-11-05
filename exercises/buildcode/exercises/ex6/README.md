@@ -2,69 +2,91 @@
 
 ## Introduction
 
-Congratulations! You now have finished a working version of your application. In this section, you will perform a quick test run using the in SAP Business Application Studio with sample data to try out the application.
+Congratulations! You now have a working version of your application. 
 
-## Preview SAP BTP Application
+In this section, you will perform a quick test run using the [Run Configurations](https://help.sap.com/docs/bas/developing-business-applications-using-productivity-tools/testing-applications?q=run%20and%20debug) in SAP Business Application Studio with sample data.
 
-1. Make sure you are on the **Storyboard**.
+## Preview the SAP BTP Application
 
-2. Choose the **[Run Configuration](https://help.sap.com/docs/bas/developing-business-applications-using-productivity-tools/testing-applications?q=run%20and%20debug)** button from the left panel of your screen. Double-click on “Run managepurchaserequisitionXXX-1”. This will open the Run Configurations panel.
+1. Go to the Storyboard.
 
-![](images/Run_001.png)
+2. From the activity bar, click the Run Configurations icon. The **Run Configuration** view opens.
 
-3. Set the configuration in OData to run with "Live" data and select the destination for "S4H_Pur_Req service" as "S4H_Pur_Req". This is to ensure that you get the data from Live S/4HANA on-premise system.
-![](images/Run_003.png)
+   ![](images/Run_001.png)
 
-4. Scroll to the bottom of the screen, ensure "Events" is set to local. This will enable us to test the application locally with sample data.
-![](images/Run_002.png)
+3. Double-click on `Run managepurchaserequisitionXXX-1`. This will open the Run Configurations editor.
+3. Under **Select Data Type**, select the **Live Data** radio button.
+4. Under **S4H_Pur_Req service** select the **Destination** radio button.
+5. From the **Destination for S4H_Pur_Req service** dropdown list, select `S4H_Pur_Req`. This is to ensure that you get the data from Live the SAP S/4HANA on-premise system.
 
-5. Run the application from the green icon on right side of Run Configuration name.
-![](images/Run_004.png)
+    ![](images/Run_003.png)
 
-6. A new browser tab will open showing your application.
-![](images/Run_App_001.png)
+7. Scroll to the bottom of the screen. Under **Events**, select the **Local Messaging**. This will enable us to test the application locally with sample data.
 
-7. Choose a tile to try out your app. Click on `Manage Purchase Requisition` app
-8. Click `Go` button to display the sample data
-![](images/Run_App_002.png)
+   ![](images/Run_002.png)
 
-9. Navigate to details of the Purchase Requisition.
-![](images/Run_002_1.png)
+8. Run the application from the green icon next to the run configuration's name.
 
-10. Click on *Edit* from the top right corner to review the Purchase Requisition and update the status to "Approved" or "Rejected". Save.
-![](images/Run_002_2.png)
+   ![](images/Run_004.png)
+
+   A new browser tab opens showing your application.
+   ![](images/Run_App_001.png)
+
+10. Click on the `Manage Purchase Requisition` tile.
+11. Click **Go** to display the sample data.
+
+   ![](images/Run_App_002.png)
+
+13. Click on the purchase requisition to see the details.
+
+   ![](images/Run_002_1.png)
+
+14. Click **Edit** to review the purchase requisition.
+15. Update the requsition's status to "Approved" or "Rejected", and click **Save**.
+
+    ![](images/Run_002_2.png)
     
-11. Make sure you exit the preview mode after your test is finished by clicking **Stop Icon** in SAP Build Code.
-![](images/Run_App_003.png)
+17. Go back to SAP Build Code and click the Stop icon to exit the preview mode.
+
+    ![](images/Run_App_003.png)
 
 # Run with Event Mesh
 
-1. Go back to run configurations and set the "Events" to *Event Mesh*. This will enable the project to test events in SAP Build Code. You will be able to recieve events from the connected S/4HANA OP system. 
-![](images/Run_EventMesh.png)
+1. In the Run Configurations editor, under **Events**, select the **Event Mesh** radio button. This will enable the project to test events in SAP Build Code. You will be able to recieve events from the connected SAP S/4HANA OP system. 
 
-2. It will ask for CF login. Make sure that the Cloud Foundry endpoint is  "https://api.cf.eu10-004.hana.ondemand.com". Now, click on SSO Passcode.
+   ![](images/Run_EventMesh.png)
 
-![](images/CF.png)
+3. When prompted, log in to Cloud Foundry.
+   
+      a. Make sure that the Cloud Foundry endpoint is  `https://api.cf.eu10-004.hana.ondemand.com`.<br>
+      b. Select the **SSO Passcode** radio button, and click the **Open a new browser page to generate your SSO passcode** link.
 
-3. Next, provide the value 'lcap-platform' and choose 'Sign in with Alternative Identity Provider'
+      ![](images/CF.png)
 
-![](images/GetSSO.png)
+      c. In the identity provider text field, enter 'lcap-platform', and then click **Sign in with Alternative Identity Provider**.
+   
+      ![](images/GetSSO.png)
 
-4. You will get another page with the passcode. Copy this passcode in to the CF panel and log in.
+      d. In the **Temporary Authenication Code** page, copy the passcode. in to the CF panel and log in.
 
-![](images/SSOCode.png)
+      ![](images/SSOCode.png)
 
-6. Once you are logged in, select the Org as 'TechEdLCAP_lcapteched' and Devspace as 'dev'.
+      e. In SAP Build Code, paste the passcode in the **Enter your SSO Passcode** field.
+   
+      f. Click **Sign In**.
 
-![](images/Run_CF_001.png)
+6. From the **Select Cloud Foundry Organizaion** dropdown list, select 'TechEdLCAP_lcapteched'.
+7. From the **Select Cloud Foundry Space** dropdown list, select 'dev'.
 
-7. Click on the link below "Create a new Event Mesh Instance" to create a one-time local setup for event processing. This step is required only once for every project.
+   ![](images/Run_CF_001.png)
 
-![](images/EventMesh.png)
+7. In the Run Configurations editor, under **Events**, click on the "Create a new Event Mesh Instance" link to create a one-time local setup for event processing. This step is required only once for every project.
 
-This will automatically create the Event Mesh Client and Queue for local testing. Refer to the details of the setup [here](../../../buildcode/exercises/ex6/appendix.md).
+   ![](images/EventMesh.png)
 
-5. Create data using **[S/4 preview app](https://github.com/SAP-samples/teched2023-AD267/tree/main/exercises/rap/exercises/ex3#exercise-36-check-your-preview-application)** (open in new tab) and repeat steps 5 to 9 from the above section to view the data created by live events.
+   This will automatically create the Event Mesh Client and Queue for local testing. Refer to the setup details [here](../../../buildcode/exercises/ex6/appendix.md).
+
+5. Create data using the **[S/4 preview app](https://github.com/SAP-samples/teched2023-AD267/tree/main/exercises/rap/exercises/ex3#exercise-36-check-your-preview-application)** (Open in a new tab), and repeat steps 8 to 13 from the section above to view the data created by live events.
 
 **RAP Order-Purchase Requisition**
 ![](images/RunApp_RAP.png)
@@ -72,9 +94,10 @@ This will automatically create the Event Mesh Client and Queue for local testing
 **BuildCode-Purchase Requisition**
 ![](images/RunApp_BuildCode.png)
 
-6. Once you create an order in RAP UI, you should be able to see the same Purchase Requisition on the SAP Build Code UI. Creation of an order in RAP triggers a *Purchase Order Created* event in the S/4HANA OP system, which is sent to SAP Event Mesh. This event is then consumed in SAP Build Code CAP backend. You can view the same Purchase Requisition on your Fiori Elements UI application in SAP Build Code.
+Once you create an order in RAP UI, you should be able to see the same Purchase Requisition on the SAP Build Code UI. The creation of an order in RAP triggers a **Purchase Order Created** event in the SAP S/4HANA OP system, which is sent to SAP Event Mesh. This event is then consumed in the SAP Build Code CAP backend. You can view the same Purchase Requisition on your SAP Fiori elements UI application in SAP Build Code.
 
-> Note: It will take a few seconds for the new entry to be reflected in the SAP Build Code UI.
+> Notes: <br>
+>  - It will take a few seconds for the new entry to be reflected in the SAP Build Code UI.
+>  - This data is temporarily persisted and will not be available if you rerun your application.
 
-> Note: This data is temporarily persisted and will not be available if you rerun your application.
 
