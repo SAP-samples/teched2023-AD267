@@ -1,3 +1,6 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AD267)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AD267)
+
+
 
 # AD267 - Extending with ABAP Cloud and SAP Cloud Application Programming Model
 
